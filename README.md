@@ -2,8 +2,8 @@
 
 ## Google Sheet to Schema.org
 
-Google Sheet: https://docs.google.com/spreadsheets/d/1LRW-v2ZNbMuxLsRk-mTQ9cfUQh-70g82GllsYKzvHBc/edit
-Colab: https://colab.research.google.com/drive/1BqZrzK5OTl_iNpfChImHdlkCTnIizTYR?usp=sharing
+* Google Sheet: https://docs.google.com/spreadsheets/d/1LRW-v2ZNbMuxLsRk-mTQ9cfUQh-70g82GllsYKzvHBc/edit
+* Colab: https://colab.research.google.com/drive/1BqZrzK5OTl_iNpfChImHdlkCTnIizTYR?usp=sharing
 
 The METS RCN recognizes the need to improve time series data discovery across data repositories and global search engines as a first critical step in elevating their overall FAIRness. Focusing on the socio-technical challenges of aggregating metadata across global time series stewards, the Bermuda workshop identified the use of the schema.org vocabulary as the most effective strategy to gather and publish machine-readable metadata with the broadest reach. Following guidelines at Science-on-Schema.org (Shepherd et al, 2024) and the Ocean InfoHub Project (Fils et al., 2024), participants arrived at a low-cost mechanism for describing time series metadata using a collaborative Google Sheets document. 
 
