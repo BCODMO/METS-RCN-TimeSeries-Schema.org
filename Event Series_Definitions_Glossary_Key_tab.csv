@@ -1,0 +1,121 @@
+Combined_TabName_Parameter,Definition,Schema_match,Comments_Questions
+EventSeries: @id,,,
+EventSeries: identifier,,https://schema.org/identifier,
+EventSeries: name,Name of the marine ecological timeseries,https://schema.org/name,
+EventSeries: organizer,"PIs of the timeseries. Use pipe to separate identifiers of multiple PIs. Use ORCiDs here, or use the identifier from the Person tab. Break them out to person tab and complete information on that tab",https://schema.org/organizer,
+EventSeries: alternateName,"Acronym, abbreviation, or alternate name of the timeseries",https://schema.org/alternateName,
+EventSeries: startDate,"Start date of timeseries in ISO 8601 format. e.g. 2020-07-10 15:00:00.000, represents the 10th of July 2020 at 3 p.m",https://schema.org/startDate,
+EventSeries: endDate,"End date of timeseries in ISO 8601 format. e.g. 2020-07-10 15:00:00.000, represents the 10th of July 2020 at 3 p.m",https://schema.org/endDate,"If time series is ongoing and continues, is this left blank or do we want an indicator word/character to show that is the case?"
+EventSeries: location,"Identifier from Place tab (e.g. place_001, place_002, etc)",https://schema.org/location,
+EventSeries: funder,"Funding organization from the Organization tab (e.g. org_027). If multiple funding organizations, separate using pipe (e.g. org_018|org_019|org_020)",https://schema.org/funder,
+EventSeries: funding,Identifier from the MonetaryGrant tab,https://schema.org/funding,
+EventSeries: keywords,Keywords used to describe the full timeseries,https://schema.org/keywords,
+EventSeries: url,URL for the timeseries website,https://schema.org/URL,
+EventSeries: offers,,https://schema.org/offers,"Is this defunct? There is one offer listed, but there is no associated tab of information"
+"EventSeries: _subEvent (deprecated)
+ see Event::superEvent",,https://schema.org/superEvent,"Sub-event seems lower in the hierarchy than superEvent, so how does this fit with what we want?"
+,,,
+Event: @id,,,Is there supposed to be a Cruise tab with identifiers for individual cruise events?
+Event: identifier,,https://schema.org/identifier,Is this supposed to be a cruise DOI? People have populated this similar to 'name' field. Additional guidance is needed. 
+Event: superEvent,Identifier that points back to EventSeries... more here?,https://schema.org/superEvent,
+Event: name,Name of the cruise for specific timeseries sampling event (??),https://schema.org/name,Will this be only cruises? Or are separate legs or deployments going to be captured?
+Event: description,Description of location and topic for the cruise,https://schema.org/description,
+Event: organizer,Cruise organizer or primary contributor (usually Chief Scientist),https://schema.org/organizer,
+Event: contributor,Cruise personnel who were secondary contributors. Separate multiple contributors with pipe | symbol),https://schema.org/contributor,
+Event: duration,Length/duration of the cruise in ISO 8601 duration format. A 2-day cruise would be represented like P0Y0M2DT0H0M0S (See https://docs.digi.com/resources/documentation/digidocs/90001488-13/reference/r_iso_8601_duration_format.htm) ,https://schema.org/Duration,Is it acceptable to leave off the hours-minutes-seconds portion? Need more examples for weeklong cruise and other durations. Should week (W) designator be used? Or stick with days (7D) only?
+Event: startDate,"Start date of the cruise event in ISO 8601 datetime format. e.g. 2020-07-10 15:00:00.000, represents the 10th of July 2020 at 3 p.m",https://schema.org/startDate,
+Event: endDate,"End date of the cruise event in ISO 8601 datetime format. e.g. 2020-07-10 15:00:00.000, represents the 10th of July 2020 at 3 p.m",https://schema.org/endDate,
+Event: subEvent,,https://schema.org/subEvent,What is this for? Leg? or individual sampling events?
+Event: subjectOf,,https://schema.org/subjectOf,What is an example of how this field is used?
+Event: eventStatus,"""An eventStatus of an event represents its status; particularly useful when an event is cancelled or rescheduled.""",https://schema.org/eventStatus,"What are appropriate values for this column? Scheduled? Completed? seems like we wouldn't be putting canceled, but maybe cut short or truncated if cruise ended early due to weather or other?"
+Event: funder,"Funding organization identifier from the Organization tab. To list multiple funders, separate with the pipe | symbol",https://schema.org/funder,
+Event: funding,"Funding/grant identifier from the MonetaryGrant tab. To list multiple grants, separate using the pipe | symbol",https://schema.org/funding,
+Event: keywords,,https://schema.org/keywords,
+Event: location,,https://schema.org/location,
+Event: url,,https://schema.org/URL,
+,,,
+Place: @id,,,
+Place: identifier,,https://schema.org/identifier,Would this be something like Marine Regions Geographic Identifier (MRGRID) or NOAA's LME's (Large Marine Ecosystems)?
+Place: name,Name of the timeseries site or area (i.e. Station ALOHA or BATS),https://schema.org/name,
+Place: geosparql:asWKT,Standard format WKT (Well-Known Text) polygon to represent bounding box for latitude and longitude coordinates,,
+Place: address,,https://schema.org/address,"What is this address for, if a marine sampling event?"
+,,,
+MonetaryGrant: @id,,,
+MonetaryGrant: identifier,,https://schema.org/identifier,Is this identifier for the award-granting institution? or the receiving institution? or something else?
+MonetaryGrant: name,,https://schema.org/name,Is this the name (or nickname) of the award and topic?
+MonetaryGrant: url,,https://schema.org/URL,"Is this the URL of the granting organization, or the URL for the specific award?"
+MonetaryGrant: amount,Amount of grant for timeseries work,https://schema.org/amount,
+MonetaryGrant: currency,"Monetary grant amount using ISO 4217 alphabetic currency codes (USD, GBP, EUR, AUD, CAD, etc.)",https://schema.org/currency,
+MonetaryGrant: alternateName,Alternate name. Usage thus far looks to be Grant/award number (?),https://schema.org/alternateName,Should this be the actual grant/award number?
+,,,
+Person: @id,,,
+Person: identifier,"Persistent identifier for the person (i.e. ORCiD, Ocean Expert ID, etc.)",https://schema.org/identifier,
+Person: additionalName,Text of person's name,https://schema.org/additionalName,
+Person: affiliation,Identifier from the Organization tab showing the person's affiliation,https://schema.org/affiliation,
+Person: email,Email address of the person,https://schema.org/email,
+,,,
+Organization: @id,,,
+Organization: identifier,"Persistent identifier for the organization like ROR, GRID, Ringgold (?), ISNI (?)",https://schema.org/identifier,
+Organization: name,Name of the organization,https://schema.org/name,
+Organization: url,URL of the organization,https://schema.org/URL,
+Organization: address,Identifier from the PostalAddress tab which has full address information,https://schema.org/address,
+,,,
+PostalAddress: @id,,,
+PostalAddress: identifier,"[P-LB] This would be like a DOI, ORCID, OceanExpert ID, ISBN, IGSN, serial number, or a unique internal code (e.g. from a curated code table) that you use to identify the thing being described. Not everything will have an identifier (this property can then be left blank), and some things will have several (use pipe separation for those).",https://schema.org/identifier,
+PostalAddress: addressCountry,Country of organization's postal address,https://schema.org/addressCountry,
+PostalAddress: addressLocality,"State, province, territory, region (administrative area)",https://schema.org/addressLocality,
+PostalAddress: postalCode,Postal or zip code,https://schema.org/postalCode,"How format this column so any leading zeros are included for USA zipcodes? (i.e. 02543 for Woods Hole, MA)"
+PostalAddress: streetAddress,Street address of the organization,https://schema.org/streetAddress,
+,,,
+Service: @id,,,
+Service: name,,https://schema.org/name,
+Service: description,,https://schema.org/description,
+Service: serviceType,,,
+Service: provider,,,
+Service: termsOfService,,,
+Service: serviceOutput,,,
+,,,
+Offer: @id,,,
+Offer: name,,https://schema.org/name,
+Offer: description,,,
+Offer: offeredBy,,,
+Offer: itemOffered,,,
+Offer: category,,,
+,,,
+PropertyValue: @id,,,
+PropertyValue: name,,https://schema.org/name,
+PropertyValue: propertyID,,,
+PropertyValue: unitText,,,
+PropertyValue: unitCode,,,
+,,,
+Dataset: @id,,,
+Dataset: identifier,,https://schema.org/identifier,
+Dataset: name,,https://schema.org/name,
+Dataset: distribution,Fill with data download type- this is the link where data can be downloaded directly.,,
+Dataset: description,,https://schema.org/description,
+Dataset: keywords,,https://schema.org/keywords,
+Dataset: dateCreated,,,
+Dataset: datePublished,,,
+Dataset: recordedAt,[P-LB] The Event where the Dataset was recorded,,
+Dataset: version,"if your data is versioned, the version number like ""1.1.9""",,
+Dataset: creator,,,
+Dataset: contributor,,,
+Dataset: accountablePerson,,,
+Dataset: spatialCoverage,"[P-LB] A Place that is described or ""covered"" by the Dataset",,
+Dataset: temporalCoverage,"""The temporalCoverage of a CreativeWork indicates the period that the content applies to, i.e. that it describes, either as a DateTime or as a textual string indicating a time period in ISO 8601 time interval format.""",,
+Dataset: archivedAt,URL of where the dataset is archived at,,
+Dataset: license,,,
+Dataset: usageInfo,Additional textual information about usage restrictions or guidance for this dataset (e.g. embargo conditions).,https://schema.org/usageInfo,
+Dataset: copyrightNotice,"Text field to describe the copyright aspects of this work, ideally indicating the owner of the copyright for the work",https://schema.org/copyrightNotice,"Should this have any license information (i.e. CCBY, others?)"
+Dataset: creditText,How the dataset should be cited,,
+Dataset: isBasedOn,"if your dataset was based on another dataset, you can link to the latter here",,
+Dataset: citation,,,what is difference between this and creditText?
+,,,
+DataDownload: @id,,,
+DataDownload: name,The name of the data download (?),https://schema.org/name,
+DataDownload: contentSize,"File size in (mega/kilo) bytes. For example ""420MB"" or ""15GB""",https://schema.org/contentSize,The schema.org definition only says mega/kilo. But the example has gigabytes. Are there unit restrictions?
+DataDownload: contentUrl,"A URL that points to the actual data download (not the landing page, but the thing that triggers a download)",https://schema.org/contentUrl,
+DataDownload: encodingFormat,"The format of the data download, expressed as a MIME type. 
+ For example, a NetCDF file would have a value of ""application/x-netcdf"" 
+ For a list of common MIME types, see: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types 
+ If you can't find it in the list, search around with strings like ""What's the MIME type of a [X] file?""",https://schema.org/encodingFormat,
