@@ -1,0 +1,4412 @@
+{
+  "options": {
+    "type": "directed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "urn:mets:time-series:mets_0001",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Bermuda Atlantic Time-series Study",
+        "organizer": "urn:mets:person:person_026,urn:mets:person:person_027,urn:mets:person:person_025,urn:mets:person:person_031",
+        "alternateName": "BATS",
+        "startDate": "1988-10-10",
+        "location": "urn:mets:place:place_001",
+        "funder": "urn:mets:organization:org_001",
+        "funding": "urn:mets:monetary-grant:monetarygrant_008",
+        "keywords": "",
+        "url": "https://bios.asu.edu/bats",
+        "ipysigma_kwarg_node_size": 7,
+        "ipysigma_kwarg_node_label_size": 7,
+        "x": -50.01286697387695,
+        "y": -78.26776885986328,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:person:person_026",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Nicholas Bates",
+        "affiliation": "urn:mets:organization:org_023",
+        "email": "Nick.Bates@bios.asu.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -83.61738586425781,
+        "y": -74.67832946777344,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:person:person_027",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Rodney Johnson",
+        "affiliation": "urn:mets:organization:org_023",
+        "email": "Rod.Johnson@bios.asu.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -83.2625503540039,
+        "y": -85.052490234375,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:person:person_025",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Michael Lomas",
+        "affiliation": "urn:mets:organization:org_017",
+        "email": "mlomas@bigelow.org",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 22.480976104736328,
+        "y": -79.59349060058594,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:person:person_031",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Deborah Steinberg",
+        "affiliation": "urn:mets:organization:org_029",
+        "email": "debbies@vims.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -82.68701934814453,
+        "y": -110.7176513671875,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:place:place_001",
+      "attributes": {
+        "@type": "Place",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -56.26461410522461,
+        "y": -65.03469848632812,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_001",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "National Science Foundation",
+        "ipysigma_kwarg_node_size": 6,
+        "ipysigma_kwarg_node_label_size": 6,
+        "x": -8.962970733642578,
+        "y": -46.53208923339844,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_008",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "BATS",
+        "url": "https://www.nsf.gov/geo/oce",
+        "amount": "8,015,290",
+        "currency": "USD",
+        "alternateName": "2241455",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -58.16968536376953,
+        "y": -89.54539489746094,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0002",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Munida Time Series",
+        "organizer": "urn:mets:person:person_001,urn:mets:person:person_002",
+        "alternateName": "MUNIDA",
+        "startDate": "1998-01-20",
+        "location": "urn:mets:place:place_002",
+        "funder": "urn:mets:organization:org_003",
+        "funding": "urn:mets:monetary-grant:monetarygrant_001",
+        "keywords": "",
+        "ipysigma_kwarg_node_size": 5,
+        "ipysigma_kwarg_node_label_size": 5,
+        "x": -66.58190155029297,
+        "y": -286.4755554199219,
+        "louvain": 2
+      }
+    },
+    {
+      "key": "urn:mets:person:person_001",
+      "attributes": {
+        "@type": "Person",
+        "identifier": "https://oceanexpert.org/expert/18429",
+        "additionalName": "Kim Currie",
+        "affiliation": "urn:mets:organization:org_008",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -80.68136596679688,
+        "y": -271.44940185546875,
+        "louvain": 2
+      }
+    },
+    {
+      "key": "urn:mets:person:person_002",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Sebastiaan van de Velde",
+        "affiliation": "urn:mets:organization:org_008,urn:mets:organization:org_009",
+        "email": "sebastiaan.vandevelde@otago.ac.nz",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": -91.78915405273438,
+        "y": -286.01470947265625,
+        "louvain": 2
+      }
+    },
+    {
+      "key": "urn:mets:place:place_002",
+      "attributes": {
+        "@type": "Place",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Polygon', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'POLYGON(171.535 -45.770, 170.720 -45.831, 170.720 -45.770, 171.535 -45.831)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -51.941795349121094,
+        "y": -292.0704650878906,
+        "louvain": 2
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_003",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "New Zealand Ministry of Business, Innovation, and Employment",
+        "url": "https://www.mbie.govt.nz/",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -53.64394760131836,
+        "y": -279.6573181152344,
+        "louvain": 2
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_001",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "NIWA SSIF funding",
+        "url": "https://www.mbie.govt.nz/science-and-technology/science-and-innovation/funding-information-and-opportunities/investment-funds/strategic-science-investment-fund/ssif-funded-programmes/crown-research-institute-platforms/national-institute-of-water-and-atmospheric-research",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -61.603145599365234,
+        "y": -300.1554260253906,
+        "louvain": 2
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0003",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "European Station for Time series in the Ocean, Canary Islands",
+        "organizer": "urn:mets:person:person_003,urn:mets:person:person_004,urn:mets:person:person_005",
+        "alternateName": "ESTOC",
+        "startDate": "1994-03-15",
+        "location": "urn:mets:place:place_003",
+        "funder": "urn:mets:organization:org_004",
+        "funding": "urn:mets:monetary-grant:monetarygrant_010",
+        "keywords": "",
+        "url": "https://plocan.eu/en/installations/ocean-observatory",
+        "ipysigma_kwarg_node_size": 6,
+        "ipysigma_kwarg_node_label_size": 6,
+        "x": 231.11447143554688,
+        "y": 19.66903305053711,
+        "louvain": 3
+      }
+    },
+    {
+      "key": "urn:mets:person:person_003",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Melchor Gonzalez",
+        "affiliation": "urn:mets:organization:org_012",
+        "email": "melchor.gonzalez@ulpgc.es",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 251.41488647460938,
+        "y": 9.786555290222168,
+        "louvain": 3
+      }
+    },
+    {
+      "key": "urn:mets:person:person_004",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Magdalena Santana",
+        "affiliation": "urn:mets:organization:org_012",
+        "email": "magdalena.santana@ulpgc.es",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 253.57382202148438,
+        "y": 22.459625244140625,
+        "louvain": 3
+      }
+    },
+    {
+      "key": "urn:mets:person:person_005",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Andres Cianca",
+        "affiliation": "urn:mets:organization:org_004",
+        "email": "andres.cianca@plocan,eu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 218.27491760253906,
+        "y": 6.047845363616943,
+        "louvain": 3
+      }
+    },
+    {
+      "key": "urn:mets:place:place_003",
+      "attributes": {
+        "@type": "Place",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Point', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'POINT (-15.5 29.16)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 231.56971740722656,
+        "y": 35.09242630004883,
+        "louvain": 3
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_004",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "The Canary Islands Government, The Canary Island Oceanic Platform, PLOCAN",
+        "url": "https://plocan.eu/en",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 213.2803192138672,
+        "y": 13.101741790771484,
+        "louvain": 3
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_010",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "PLOCAN",
+        "url": "https://plocan.eu/en",
+        "currency": "EUR",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 219.65304565429688,
+        "y": 30.62001609802246,
+        "louvain": 3
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0004",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Rothera Time Series",
+        "organizer": "urn:mets:organization:org_007,urn:mets:person:person_022,urn:mets:person:person_023",
+        "alternateName": "RaTS",
+        "startDate": "1997-12-31",
+        "location": "urn:mets:place:place_004",
+        "funder": "urn:mets:organization:org_002",
+        "funding": "urn:mets:monetary-grant:monetarygrant_002",
+        "keywords": "",
+        "url": "https://www.bas.ac.uk/project/rats/",
+        "ipysigma_kwarg_node_size": 6,
+        "ipysigma_kwarg_node_label_size": 6,
+        "x": -2.263517379760742,
+        "y": 156.06314086914062,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_007",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "British Antarctic Survey",
+        "url": "https://www.bas.ac.uk",
+        "address": "urn:mets:address:address_011",
+        "ipysigma_kwarg_node_size": 4,
+        "ipysigma_kwarg_node_label_size": 4,
+        "x": 26.11743927001953,
+        "y": 157.93443298339844,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:person:person_022",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Hugh Venables",
+        "affiliation": "urn:mets:organization:org_007",
+        "email": "hjv@bas.ac.uk",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 14.449833869934082,
+        "y": 164.49195861816406,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:person:person_023",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Kate Hendry",
+        "affiliation": "urn:mets:organization:org_007",
+        "email": "kathen@bas.ac.uk",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 15.25716781616211,
+        "y": 149.22244262695312,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:place:place_004",
+      "attributes": {
+        "@type": "Place",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Polygon', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'POLYGON ((-68.11523 -67.57467, -68.16330 -67.60294, -68.33771 -67.59300, -68.26904 -67.54217, -68.11523 -67.57467))'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -14.567216873168945,
+        "y": 148.5994873046875,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_002",
+      "attributes": {
+        "@type": "Organziation",
+        "identifier": "https://edmo.seadatanet.org/report/783",
+        "name": "Natural Environment Research Council",
+        "url": "https://edmo.seadatanet.org/report/783| www.nerc.ac.uk",
+        "ipysigma_kwarg_node_size": 6,
+        "ipysigma_kwarg_node_label_size": 6,
+        "x": -43.4476318359375,
+        "y": 216.7146759033203,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_002",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "PRESCIENT",
+        "url": "https://www.bas.ac.uk/project/prescient/",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 4.938102722167969,
+        "y": 101.2696533203125,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0005",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Northeast U.S. Shelf Long Term Ecological Research",
+        "organizer": "urn:mets:person:person_016,urn:mets:person:person_017,urn:mets:person:person_018",
+        "alternateName": "NES-LTER",
+        "startDate": "2017-09-01",
+        "location": "urn:mets:place:place_005",
+        "funder": "urn:mets:organization:org_001",
+        "funding": "urn:mets:monetary-grant:monetarygrant_002",
+        "keywords": "",
+        "url": "https://nes-lter.whoi.edu/",
+        "ipysigma_kwarg_node_size": 6,
+        "ipysigma_kwarg_node_label_size": 6,
+        "x": 14.618640899658203,
+        "y": 44.36296463012695,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:person:person_016",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Heidi M. Sosik",
+        "affiliation": "urn:mets:organization:org_021",
+        "email": "hsosik@whoi.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 32.031097412109375,
+        "y": 55.49711227416992,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:person:person_017",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Kate Morkeski",
+        "affiliation": "urn:mets:organization:org_021",
+        "email": "lter-nes-info@whoi.edu.",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 30.69304847717285,
+        "y": 65.38347625732422,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:person:person_018",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Connor Ahearn",
+        "affiliation": "urn:mets:organization:org_021",
+        "email": "cahearn@whoi.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 40.60878372192383,
+        "y": 50.05914306640625,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:place:place_005",
+      "attributes": {
+        "@type": "Place",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Polygon', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'POLYGON(-71.0680, -70.2182, 41.3600, 39.7576)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 0.8731380701065063,
+        "y": 47.93687438964844,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0006",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Hawai'i Ocean Time-series ",
+        "organizer": "urn:mets:person:person_019,urn:mets:person:person_024,urn:mets:person:person_033",
+        "alternateName": "HOT",
+        "startDate": "1988-10-10",
+        "location": "urn:mets:place:place_006",
+        "funder": "urn:mets:organization:org_001",
+        "funding": "urn:mets:monetary-grant:monetarygrant_009",
+        "keywords": "",
+        "url": "https://hahana.soest.hawaii.edu/hot/",
+        "offers": "urn:mets:offer:offer-0002",
+        "ipysigma_kwarg_node_size": 7,
+        "ipysigma_kwarg_node_label_size": 7,
+        "x": -89.68814086914062,
+        "y": 7.760708332061768,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:person:person_019",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Angelicque White",
+        "affiliation": "urn:mets:organization:org_006",
+        "email": "aewhite@hawaii.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -106.6656494140625,
+        "y": 33.02937316894531,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:person:person_024",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "James Potemra",
+        "affiliation": "urn:mets:organization:org_006",
+        "email": "jimp@hawaii.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -114.37602233886719,
+        "y": 13.818033218383789,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:person:person_033",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "David M. Karl",
+        "affiliation": "urn:mets:organization:org_006",
+        "email": "dkarl@hawaii.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -109.69730377197266,
+        "y": 23.507232666015625,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:place:place_006",
+      "attributes": {
+        "@type": "Place",
+        "name": "Station ALOHA",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Point', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'POINT (22.75,-158)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -77.2155532836914,
+        "y": 2.5492258071899414,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_009",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "HOT",
+        "url": "https://www.bco-dmo.org/award/931444",
+        "amount": "$9,984,378",
+        "currency": "USD",
+        "alternateName": "2241005",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -79.07127380371094,
+        "y": 19.614255905151367,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:offer:offer-0002",
+      "attributes": {
+        "@type": "Offer",
+        "name": "HOT data",
+        "description": "Hydrographic, biogeochemical, particle flux, and production data",
+        "offeredBy": "urn:mets:organization:org_006",
+        "itemOffered": "urn:mets:service:service-0002",
+        "category": "Datasets",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": -133.8208770751953,
+        "y": 16.895483016967773,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0007",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "California Current Ecosystem LTER",
+        "organizer": "urn:mets:person:person_006,urn:mets:person:person_007",
+        "alternateName": "CCE-LTER",
+        "startDate": "2004-07-01",
+        "location": "urn:mets:place:place_007",
+        "funder": "urn:mets:organization:org_001",
+        "funding": "urn:mets:monetary-grant:monetarygrant_003",
+        "keywords": "",
+        "url": "https://ccelter.ucsd.edu",
+        "ipysigma_kwarg_node_size": 5,
+        "ipysigma_kwarg_node_label_size": 5,
+        "x": 55.22782516479492,
+        "y": -23.12071990966797,
+        "louvain": 7
+      }
+    },
+    {
+      "key": "urn:mets:person:person_006",
+      "attributes": {
+        "@type": "Person",
+        "identifier": "https://orcid.org/0000-0002-2132-7219",
+        "additionalName": "Katherine Barbeau",
+        "affiliation": "urn:mets:organization:org_011",
+        "email": "kbarbeau@ucsd.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 86.14820098876953,
+        "y": -24.038116455078125,
+        "louvain": 7
+      }
+    },
+    {
+      "key": "urn:mets:person:person_007",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Mike Stukel",
+        "affiliation": "urn:mets:organization:org_014",
+        "email": "mstukel@fsu.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 79.85343170166016,
+        "y": -4.6102519035339355,
+        "louvain": 7
+      }
+    },
+    {
+      "key": "urn:mets:place:place_007",
+      "attributes": {
+        "@type": "Place",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Polygon', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'POLYGON(-126.5 29.85, -117.4 29.85, 37.85 -117.4, 126.5 37.85)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 57.51504898071289,
+        "y": -10.938375473022461,
+        "louvain": 7
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_003",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "CCE-IV",
+        "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2224726&HistoricalAwards=false",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 65.56023406982422,
+        "y": -29.588680267333984,
+        "louvain": 7
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0008",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Western Channel Observatory",
+        "organizer": "urn:mets:organization:org_005,urn:mets:person:person_014",
+        "alternateName": "WCO",
+        "startDate": "1988-01-01",
+        "location": "urn:mets:place:place_008",
+        "funder": "urn:mets:organization:org_002",
+        "funding": "urn:mets:monetary-grant:monetarygrant_004",
+        "keywords": "",
+        "url": "https://www.westernchannelobservatory.org.uk/",
+        "ipysigma_kwarg_node_size": 6,
+        "ipysigma_kwarg_node_label_size": 6,
+        "x": -29.609712600708008,
+        "y": 267.2861328125,
+        "louvain": 8
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_005",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Plymouth Marine Laboratory",
+        "url": "https://oceanscape.org/organisation/plymouth-marine-laboratory/",
+        "address": "urn:mets:address:address_013",
+        "ipysigma_kwarg_node_size": 5,
+        "ipysigma_kwarg_node_label_size": 5,
+        "x": 2.032741069793701,
+        "y": 278.4584045410156,
+        "louvain": 8
+      }
+    },
+    {
+      "key": "urn:mets:person:person_014",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Tim Smyth",
+        "affiliation": "urn:mets:organization:org_005",
+        "email": "tjsm@pml.ac.uk",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -15.228843688964844,
+        "y": 284.77313232421875,
+        "louvain": 8
+      }
+    },
+    {
+      "key": "urn:mets:place:place_008",
+      "attributes": {
+        "@type": "Place",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Polygon', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'POLYGON(50 -5, 51 -4)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -45.51188659667969,
+        "y": 273.8769836425781,
+        "louvain": 8
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_004",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "NERC NC",
+        "url": "https://www.ukri.org/councils/nerc/guidance-for-applicants/types-of-funding-we-offer/national-capability-funding/",
+        "currency": "GBP",
+        "alternateName": "NE/R015953/1",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -13.69412899017334,
+        "y": 255.57862854003906,
+        "louvain": 8
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0009",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Atlantic Meridional Transect",
+        "organizer": "urn:mets:organization:org_005,urn:mets:person:person_015",
+        "alternateName": "AMT",
+        "startDate": "1995-01-01",
+        "location": "urn:mets:place:place_009",
+        "funder": "urn:mets:organization:org_002",
+        "funding": "urn:mets:monetary-grant:monetarygrant_004",
+        "keywords": "",
+        "url": "https://amt-uk.org/",
+        "ipysigma_kwarg_node_size": 6,
+        "ipysigma_kwarg_node_label_size": 6,
+        "x": 4.276711463928223,
+        "y": 247.82444763183594,
+        "louvain": 8
+      }
+    },
+    {
+      "key": "urn:mets:person:person_015",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Andy Rees",
+        "affiliation": "urn:mets:organization:org_005",
+        "email": "apre@pml.ac.uk",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 16.031150817871094,
+        "y": 267.1168212890625,
+        "louvain": 8
+      }
+    },
+    {
+      "key": "urn:mets:place:place_009",
+      "attributes": {
+        "@type": "Place",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Polygon', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'POLYGON(-48.1075 -56.1247, 49.7153 -6.5327)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 18.567981719970703,
+        "y": 237.90122985839844,
+        "louvain": 8
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0010",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Boknis Eck Time Series Station",
+        "organizer": "urn:mets:person:person_008,urn:mets:person:person_038",
+        "alternateName": "BE",
+        "startDate": "1957-04-30",
+        "location": "urn:mets:place:place_010",
+        "funder": "urn:mets:organization:org_010,urn:mets:organization:org_033,urn:mets:organization:org_034,urn:mets:organization:org_035,urn:mets:organization:org_036",
+        "keywords": "",
+        "url": "https://www.bokniseck.de",
+        "ipysigma_kwarg_node_size": 9,
+        "ipysigma_kwarg_node_label_size": 9,
+        "x": 187.02444458007812,
+        "y": 170.0209197998047,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:person:person_008",
+      "attributes": {
+        "@type": "Person",
+        "identifier": "https://orcid.org/0000-0003-4053-1394",
+        "additionalName": "Hermann Bange",
+        "affiliation": "urn:mets:organization:org_010",
+        "email": "hbange@geomar.de",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": 194.7232208251953,
+        "y": 188.23193359375,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:person:person_038",
+      "attributes": {
+        "@type": "Person",
+        "identifier": "https://orcid.org/0000-0002-4939-590X",
+        "additionalName": "Helmke Hepach",
+        "affiliation": "urn:mets:organization:org_010",
+        "email": "hhepach@geomar.de",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": 188.19558715820312,
+        "y": 199.54856872558594,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:place:place_010",
+      "attributes": {
+        "@type": "Place",
+        "name": "Boknis Eck Time Series Station",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Point', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'POINT (10.03933, 54.5295)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 166.33934020996094,
+        "y": 181.17088317871094,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_010",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "GEOMAR Helmhotz Centre for Ocean Research Kiel",
+        "url": "https://www.geomar.de",
+        "address": "urn:mets:address:address_007",
+        "ipysigma_kwarg_node_size": 4,
+        "ipysigma_kwarg_node_label_size": 4,
+        "x": 206.1927032470703,
+        "y": 197.1258087158203,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_033",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "HELCOM Baltic Marine Environment Commission",
+        "url": "https://helcom.fi",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 171.51858520507812,
+        "y": 159.89881896972656,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_034",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Bundesministerium für Bildung und Forschung (BMBF)",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 203.48167419433594,
+        "y": 160.9176483154297,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_035",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Institut für Meeresforschung (IfM)",
+        "address": "urn:mets:address:address_018",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 194.2847137451172,
+        "y": 141.53097534179688,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_036",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "IfM-GEOMAR",
+        "address": "urn:mets:address:address_018",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 181.6511688232422,
+        "y": 141.16307067871094,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0011",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "North Inlet Estuary Zooplankton Time Series",
+        "organizer": "urn:mets:person:person_010",
+        "alternateName": "NIEZTS",
+        "startDate": "1981-01-20",
+        "location": "urn:mets:place:place_011",
+        "funder": "urn:mets:organization:org_001,urn:mets:organization:org_016",
+        "funding": "urn:mets:monetary-grant:monetarygrant_011,urn:mets:monetary-grant:monetarygrant_013",
+        "keywords": "",
+        "ipysigma_kwarg_node_size": 8,
+        "ipysigma_kwarg_node_label_size": 8,
+        "x": 6.554810523986816,
+        "y": -132.36199951171875,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:person:person_010",
+      "attributes": {
+        "@type": "Person",
+        "identifier": "https://orcid.org/0000-0001-6459-5240",
+        "additionalName": "Joshua Stone",
+        "affiliation": "urn:mets:organization:org_016",
+        "email": "stone@sc.edu",
+        "ipysigma_kwarg_node_size": 4,
+        "ipysigma_kwarg_node_label_size": 4,
+        "x": 9.799857139587402,
+        "y": -152.71240234375,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:place:place_011",
+      "attributes": {
+        "@type": "Place",
+        "name": "Bread and Butter Creek Mouth",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Point', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'Point (33.3333, -79.1870)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": -8.99173641204834,
+        "y": -145.73536682128906,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_016",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "University of South Carolina",
+        "url": "www.sc.edu",
+        "address": "urn:mets:address:address_005",
+        "ipysigma_kwarg_node_size": 5,
+        "ipysigma_kwarg_node_label_size": 5,
+        "x": 25.84880828857422,
+        "y": -158.8114013671875,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_011",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "Ecological Patterns and Processes in the North Inlet Estuary, South Carolina I",
+        "url": "https://www.nsf.gov/bio/deb",
+        "amount": "1,485,129",
+        "currency": "USD",
+        "alternateName": "DEB 8012165|J22LNTMEDP73",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 24.094444274902344,
+        "y": -126.30738067626953,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_013",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "Ecological Patterns and Processes in the North Inlet Estuary, South Carolina II",
+        "url": "https://www.nsf.gov/bio/deb",
+        "amount": "2,389,551",
+        "currency": "USD",
+        "alternateName": "DEB 8514326|J22LNTMEDP73",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 20.915382385253906,
+        "y": -114.58492279052734,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0012",
+      "attributes": {
+        "@type": "EventSeries",
+        "identifier": "https://edios.seadatanet.org/report/programme/10139",
+        "name": "Porcupine Abyssal Plain - Sustained Observatory",
+        "organizer": "urn:mets:person:person_009,urn:mets:address:address_004",
+        "alternateName": "PAP-SO",
+        "startDate": "1985-06-13",
+        "endDate": "-",
+        "location": "urn:mets:place:place_012",
+        "funder": "urn:mets:organization:org_002",
+        "funding": "urn:mets:monetary-grant:monetarygrant_016,urn:mets:monetary-grant:monetarygrant_017,urn:mets:monetary-grant:monetarygrant_018,urn:mets:monetary-grant:monetarygrant_007",
+        "keywords": "",
+        "url": "https://www.bodc.ac.uk/data/bodc_database/nodb/data_collection/5912/",
+        "ipysigma_kwarg_node_size": 8,
+        "ipysigma_kwarg_node_label_size": 8,
+        "x": -117.89328002929688,
+        "y": 223.84898376464844,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:person:person_009",
+      "attributes": {
+        "@type": "Person",
+        "identifier": "https://orcid.org/0000-0002-2798-5044",
+        "additionalName": "Andrew Gates",
+        "affiliation": "urn:mets:organization:org_015",
+        "email": "arg@noc.ac.uk",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -117.00616455078125,
+        "y": 196.87181091308594,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:address:address_004",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United Kingdom",
+        "addressLocality": "Hampshire",
+        "postalCode": "SO14 3HZ",
+        "streetAddress": "European Way",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -134.3549041748047,
+        "y": 236.3526611328125,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:place:place_012",
+      "attributes": {
+        "@type": "Place",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Point', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'Point (48,-16)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -138.56369018554688,
+        "y": 218.2805938720703,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_016",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "ANIMATE & BICEP",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -137.33619689941406,
+        "y": 227.58847045898438,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_017",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "MerSEA",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -130.632568359375,
+        "y": 212.39483642578125,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_018",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "EuroSITES",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -125.67595672607422,
+        "y": 241.0804901123047,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_007",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "ATLANTIS",
+        "url": "https://projects.noc.ac.uk/atlantis/",
+        "currency": "GBP",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -114.67176055908203,
+        "y": 239.79161071777344,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0013",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "South Florida Ecosystem Restoration ",
+        "organizer": "urn:mets:organization:org_037",
+        "alternateName": "SFER",
+        "startDate": "1998-01-29",
+        "location": "urn:mets:place:place_013",
+        "funder": "urn:mets:organization:org_037",
+        "keywords": "",
+        "url": "https://www.aoml.noaa.gov/cruising-for-conservation/",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -199.64622497558594,
+        "y": -207.51766967773438,
+        "louvain": 10
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_037",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Atlantic Oceanographic and Meteorological Laboratory",
+        "address": "urn:mets:address:address_019",
+        "ipysigma_kwarg_node_size": 4,
+        "ipysigma_kwarg_node_label_size": 4,
+        "x": -209.66482543945312,
+        "y": -193.06578063964844,
+        "louvain": 10
+      }
+    },
+    {
+      "key": "urn:mets:place:place_013",
+      "attributes": {
+        "@type": "Place",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Polygon', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'POLYGON((\\n  -85.0221065 24.39797578,\\n  -85.0221065 28.0178416,\\n  -80.08316964 28.0178416,\\n  -80.08316964 24.39797578,\\n  -85.0221065 24.39797578\\n))'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -193.7622528076172,
+        "y": -216.07540893554688,
+        "louvain": 10
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0014",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "East Coast Ocean Acidification Cruises  ",
+        "organizer": "urn:mets:organization:org_013",
+        "alternateName": "ECOA ",
+        "startDate": "2007-07-10",
+        "location": "urn:mets:place:place_014",
+        "funder": "urn:mets:organization:org_013",
+        "keywords": "",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 242.79078674316406,
+        "y": -90.07870483398438,
+        "louvain": 11
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_013",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "National Oceanic and Atmospheric Administration",
+        "url": "https://www.noaa.gov/",
+        "address": "urn:mets:address:address_008",
+        "ipysigma_kwarg_node_size": 4,
+        "ipysigma_kwarg_node_label_size": 4,
+        "x": 260.6568908691406,
+        "y": -97.8136978149414,
+        "louvain": 11
+      }
+    },
+    {
+      "key": "urn:mets:place:place_014",
+      "attributes": {
+        "@type": "Place",
+        "name": "U.S. East Coast",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Polygon', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'Polygon ()'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 232.4441375732422,
+        "y": -86.12091064453125,
+        "louvain": 11
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0015",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Booth Bay Dock",
+        "organizer": "urn:mets:person:person_011",
+        "alternateName": "BHD",
+        "startDate": "2001-11-01",
+        "location": "urn:mets:place:place_015",
+        "funder": "urn:mets:organization:org_017",
+        "keywords": "",
+        "url": "https://www.st.nmfs.noaa.gov/plankton/time-series/us-10401/",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": 118.05989074707031,
+        "y": -94.10807800292969,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:person:person_011",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Nicole Poulton",
+        "affiliation": "urn:mets:organization:org_017",
+        "email": "npoulton@bigelow.org",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 107.3038558959961,
+        "y": -90.68864440917969,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:place:place_015",
+      "attributes": {
+        "@type": "Place",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Point', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'Point (43.8440, -69.6409)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 132.8785858154297,
+        "y": -96.30866241455078,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_017",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Bigelow Laboratory for Ocean Sciences",
+        "url": "www.bigelow.org",
+        "address": "urn:mets:address:address_006",
+        "ipysigma_kwarg_node_size": 4,
+        "ipysigma_kwarg_node_label_size": 4,
+        "x": 86.99617004394531,
+        "y": -90.57244110107422,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0016",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Ocean Weather Station M",
+        "organizer": "urn:mets:person:person_012,urn:mets:organization:org_019",
+        "alternateName": "OWSM|Station M",
+        "startDate": "1948-06-01",
+        "location": "urn:mets:place:place_016",
+        "funder": "urn:mets:organization:org_018,urn:mets:organization:org_019,urn:mets:organization:org_020",
+        "keywords": "",
+        "ipysigma_kwarg_node_size": 5,
+        "ipysigma_kwarg_node_label_size": 5,
+        "x": 85.07726287841797,
+        "y": -283.6230163574219,
+        "louvain": 12
+      }
+    },
+    {
+      "key": "urn:mets:person:person_012",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Ingunn Skjelvan",
+        "affiliation": "urn:mets:organization:org_018",
+        "email": "insk@norceresearch.no",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 86.12244415283203,
+        "y": -299.057861328125,
+        "louvain": 12
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_019",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "University of Bergen",
+        "url": "www.uib.no",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 98.90538787841797,
+        "y": -280.2019958496094,
+        "louvain": 12
+      }
+    },
+    {
+      "key": "urn:mets:place:place_016",
+      "attributes": {
+        "@type": "Place",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Polygon', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'POLYGON(1.9 65.8, 1.9 66.05, 2.3 66.05, 2.3 65.8)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 72.75828552246094,
+        "y": -277.42559814453125,
+        "louvain": 12
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_018",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "NORCE Norwegian Research Centre",
+        "url": "www.norceresearch.no",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 77.28246307373047,
+        "y": -297.51922607421875,
+        "louvain": 12
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_020",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Norwegian Environment Agency",
+        "url": "www.miljodir.no",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 87.5915298461914,
+        "y": -270.03558349609375,
+        "louvain": 12
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0017",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Estación Permanente de Estudios Ambientales",
+        "organizer": "urn:mets:person:person_028,urn:mets:person:person_029,urn:mets:person:person_030",
+        "alternateName": "EPEA",
+        "startDate": "2000-02-10",
+        "location": "urn:mets:place:place_018",
+        "funder": "urn:mets:organization:org_024",
+        "funding": "urn:mets:monetary-grant:monetarygrant_012,urn:mets:monetary-grant:monetarygrant_015",
+        "keywords": "",
+        "url": "https://www.argentina.gob.ar/programa-dinamica-del-plancton-marino-y-cambio-climatico/variables-medidas",
+        "ipysigma_kwarg_node_size": 7,
+        "ipysigma_kwarg_node_label_size": 7,
+        "x": -273.26116943359375,
+        "y": -60.64570999145508,
+        "louvain": 13
+      }
+    },
+    {
+      "key": "urn:mets:person:person_028",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Valeria Segura",
+        "affiliation": "urn:mets:organization:org_024",
+        "email": "vsegura@inidep.edu.ar",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -284.9529724121094,
+        "y": -77.08025360107422,
+        "louvain": 13
+      }
+    },
+    {
+      "key": "urn:mets:person:person_029",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Carla F Berghoff",
+        "affiliation": "urn:mets:organization:org_024",
+        "email": "cberghoff@inidep.edu.ar",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -270.5126953125,
+        "y": -74.89427947998047,
+        "louvain": 13
+      }
+    },
+    {
+      "key": "urn:mets:person:person_030",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Daniela del Valle",
+        "affiliation": "urn:mets:organization:org_024,urn:mets:organization:org_025",
+        "email": "ddelvalle@inidep.edu.ar",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": -252.5999298095703,
+        "y": -79.10174560546875,
+        "louvain": 13
+      }
+    },
+    {
+      "key": "urn:mets:place:place_018",
+      "attributes": {
+        "@type": "Place",
+        "name": "EPEA",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Point', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'Point (-57.686, -38.467)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -264.4599914550781,
+        "y": -45.69558334350586,
+        "louvain": 13
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_024",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Instituto Nacional de Investigación y Desarrollo Pesquero",
+        "url": "https://www.argentina.gob.ar/inidep",
+        "address": "urn:mets:address:address_012",
+        "ipysigma_kwarg_node_size": 5,
+        "ipysigma_kwarg_node_label_size": 5,
+        "x": -271.2826232910156,
+        "y": -87.29366302490234,
+        "louvain": 13
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_012",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "INIDEP",
+        "url": "https://www.argentina.gob.ar/inidep",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -277.11669921875,
+        "y": -42.93318557739258,
+        "louvain": 13
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_015",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "NF-POGO NANO",
+        "url": "https://nf-pogo-alumni.org/",
+        "amount": "26,058.00",
+        "currency": "EUR",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -287.590087890625,
+        "y": -50.01926040649414,
+        "louvain": 13
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0018",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Monterey Bay Time Series",
+        "organizer": "urn:mets:person:person_020,urn:mets:person:person_021",
+        "alternateName": "MBTS",
+        "startDate": "1988-06-01",
+        "location": "urn:mets:place:place_017",
+        "funder": "urn:mets:organization:org_022",
+        "funding": "urn:mets:monetary-grant:monetarygrant_014",
+        "keywords": "",
+        "ipysigma_kwarg_node_size": 5,
+        "ipysigma_kwarg_node_label_size": 5,
+        "x": 184.84573364257812,
+        "y": -211.6914825439453,
+        "louvain": 14
+      }
+    },
+    {
+      "key": "urn:mets:person:person_020",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Francisco Chavez",
+        "affiliation": "urn:mets:organization:org_022",
+        "email": "chfr@mbari.org",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 176.70526123046875,
+        "y": -201.6072235107422,
+        "louvain": 14
+      }
+    },
+    {
+      "key": "urn:mets:person:person_021",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Marguerite Blum",
+        "affiliation": "urn:mets:organization:org_022",
+        "email": "mblum@mbari.org",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 183.1986083984375,
+        "y": -191.92562866210938,
+        "louvain": 14
+      }
+    },
+    {
+      "key": "urn:mets:place:place_017",
+      "attributes": {
+        "@type": "Place",
+        "name": "Monterey Bay",
+        "geosparql:asWKT": "ploygon(-123.14009, -121.103558, 37.881632, 35.55327)",
+        "address": "urn:mets:address:address_010",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 203.83407592773438,
+        "y": -215.55960083007812,
+        "louvain": 14
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_022",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Monterey Bay Aquarium Reserach Institute",
+        "url": "www.mbari.org",
+        "address": "urn:mets:address:address_010",
+        "ipysigma_kwarg_node_size": 4,
+        "ipysigma_kwarg_node_label_size": 4,
+        "x": 193.1842041015625,
+        "y": -196.79444885253906,
+        "louvain": 14
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_014",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "Packard Foundation",
+        "url": "https://www.packard.org/",
+        "amount": "2,000,000",
+        "currency": "USD",
+        "alternateName": "org_022",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 176.87095642089844,
+        "y": -225.0876007080078,
+        "louvain": 14
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0019",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Ellett Array",
+        "organizer": "urn:mets:person:person_037",
+        "alternateName": "Ellett Array",
+        "startDate": "1979-04-04",
+        "funder": "urn:mets:organization:org_002",
+        "url": "https://projects.noc.ac.uk/ellett-array/about",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -67.54456329345703,
+        "y": 197.2419891357422,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:person:person_037",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Penny Holliday",
+        "affiliation": "urn:mets:organization:org_015",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -87.60749053955078,
+        "y": 184.3551483154297,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0020",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "CARIACO Ocean Time Series",
+        "organizer": "urn:mets:person:person_034,urn:mets:person:person_035,urn:mets:person:person_036",
+        "alternateName": "CARIACO",
+        "startDate": "1995-11-01",
+        "endDate": "2017-01-30",
+        "location": "urn:mets:place:place_019",
+        "funder": "urn:mets:organization:org_026,urn:mets:organization:org_027,urn:mets:organization:org_028",
+        "keywords": "",
+        "ipysigma_kwarg_node_size": 7,
+        "ipysigma_kwarg_node_label_size": 7,
+        "x": -252.73263549804688,
+        "y": 129.08721923828125,
+        "louvain": 15
+      }
+    },
+    {
+      "key": "urn:mets:person:person_034",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Frank Muller-Karger",
+        "affiliation": "urn:mets:organization:org_031",
+        "email": "carib@usf.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -271.7969665527344,
+        "y": 112.3611068725586,
+        "louvain": 15
+      }
+    },
+    {
+      "key": "urn:mets:person:person_035",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Digna Rueda-Roa",
+        "affiliation": "urn:mets:organization:org_031",
+        "email": "druedaro@usf.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -261.90277099609375,
+        "y": 105.32315826416016,
+        "louvain": 15
+      }
+    },
+    {
+      "key": "urn:mets:person:person_036",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Laura Lorenzoni",
+        "affiliation": "urn:mets:organization:org_028",
+        "email": "laura.lorenzoni@nasa.gov",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -253.8505401611328,
+        "y": 149.97366333007812,
+        "louvain": 15
+      }
+    },
+    {
+      "key": "urn:mets:place:place_019",
+      "attributes": {
+        "@type": "Place",
+        "name": "Cariaco Station",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Point', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'Point(-64.67, 10.50)'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -240.03875732421875,
+        "y": 140.2906036376953,
+        "louvain": 15
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_026",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Fondo Nacional de Ciencia, Tecnología e Innovación of Venezuela (FONACIT)",
+        "url": "http://www.fonacit.gob.ve/",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -235.7760467529297,
+        "y": 129.6131591796875,
+        "louvain": 15
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_027",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "NSF Division of Ocean Sciences (NSF OCE)",
+        "url": "http://www.nsf.gov/div/index.jsp?div=oce",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -241.04708862304688,
+        "y": 118.54669952392578,
+        "louvain": 15
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_028",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "National Aeronautics & Space Administration (NASA)",
+        "url": "http://www.nasa.gov",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -261.8301086425781,
+        "y": 146.80657958984375,
+        "louvain": 15
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0021",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Irminger Sea TS",
+        "organizer": "person_32",
+        "alternateName": "FX9",
+        "startDate": "1983-03-05",
+        "funder": "urn:mets:organization:org_030",
+        "keywords": "",
+        "url": "https://imars.usf.edu/?page_id=1027",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 296.15447998046875,
+        "y": 98.53694152832031,
+        "louvain": 16
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_030",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Marine and Freshwater Research Institute",
+        "url": "http://www.hafogvatn.is",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 292.1877746582031,
+        "y": 106.14666748046875,
+        "louvain": 16
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0022",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Iceland Sea TS",
+        "organizer": "person_32",
+        "alternateName": "LN6",
+        "startDate": "1985-02-22",
+        "funder": "urn:mets:organization:org_030",
+        "keywords": "",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 288.42547607421875,
+        "y": 113.82810974121094,
+        "louvain": 16
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0023",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "West Coast Ocean Acidification Cruises",
+        "organizer": "urn:mets:organization:org_013",
+        "alternateName": "WCOA",
+        "startDate": "2007-05-11",
+        "location": "urn:mets:place:place_020",
+        "funder": "urn:mets:organization:org_013",
+        "keywords": "",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 275.15936279296875,
+        "y": -84.41226959228516,
+        "louvain": 11
+      }
+    },
+    {
+      "key": "urn:mets:place:place_020",
+      "attributes": {
+        "@type": "Place",
+        "name": "U.S. West Coast",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Polygon', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'Polygon()'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 283.6878356933594,
+        "y": -77.43916320800781,
+        "louvain": 11
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0024",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "Gulf of Mexico Ocean Acidification Cruises",
+        "organizer": "urn:mets:organization:org_013",
+        "alternateName": "GOMECC",
+        "startDate": "2007-07-10",
+        "location": "urn:mets:place:place_021",
+        "funder": "urn:mets:organization:org_013",
+        "keywords": "",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 256.5670471191406,
+        "y": -116.59915161132812,
+        "louvain": 11
+      }
+    },
+    {
+      "key": "urn:mets:place:place_021",
+      "attributes": {
+        "@type": "Place",
+        "name": "U.S. Gulf Region",
+        "geosparql:asWKT": "{'geosparql:hasGeometry': {'@type': 'sf:Polygon', 'geosparql:asWKT': {'@type': 'geosparql:wktLiteral', '@value': 'Polygon()'}, 'geosparql:crs': {'@id': 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'}}}",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 254.60601806640625,
+        "y": -127.25965118408203,
+        "louvain": 11
+      }
+    },
+    {
+      "key": "urn:mets:time-series:mets_0025",
+      "attributes": {
+        "@type": "EventSeries",
+        "name": "RAPID 26North",
+        "organizer": "urn:mets:organization:org_002",
+        "alternateName": "RAPID",
+        "url": "https://rapid.ac.uk/",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -42.41495132446289,
+        "y": 204.2415771484375,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:event:cruise_0001",
+      "attributes": {
+        "@type": "Event",
+        "identifier": "NIEZTS1095",
+        "superEvent": "urn:mets:time-series:mets_0011",
+        "name": "NIEZTS-1095",
+        "description": "North Inlet Estuary Zooplankton Time Series cruise 1095",
+        "organizer": "urn:mets:organization:org_016",
+        "contributor": "urn:mets:person:person_010",
+        "duration": "1 day",
+        "startDate": "2025-04-10",
+        "endDate": "2025-04-10",
+        "eventStatus": "EventScheduled",
+        "funder": "urn:mets:organization:org_001,urn:mets:organization:org_016",
+        "funding": "urn:mets:monetary-grant:monetarygrant_011,urn:mets:monetary-grant:monetarygrant_013",
+        "location": "urn:mets:place:place_011",
+        "ipysigma_kwarg_node_size": 7,
+        "ipysigma_kwarg_node_label_size": 7,
+        "x": 7.488783359527588,
+        "y": -117.13481903076172,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:event:cruise_0002",
+      "attributes": {
+        "@type": "Event",
+        "identifier": "EDMED732",
+        "superEvent": "urn:mets:time-series:mets_0008",
+        "name": "EDMED732",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -38.92208480834961,
+        "y": 283.3406677246094,
+        "louvain": 8
+      }
+    },
+    {
+      "key": "urn:mets:event:cruise_0003",
+      "attributes": {
+        "@type": "Event",
+        "identifier": "EDMED207",
+        "superEvent": "urn:mets:time-series:mets_0009",
+        "name": "EDMED207",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 24.04665184020996,
+        "y": 247.6309356689453,
+        "louvain": 8
+      }
+    },
+    {
+      "key": "urn:mets:event:cruise_0004",
+      "attributes": {
+        "@type": "Event",
+        "identifier": "L-KBP-615",
+        "superEvent": "urn:mets:time-series:mets_0010",
+        "name": "L-KBP-615",
+        "description": "Boknis Eck monthly time series cruise 615",
+        "organizer": "urn:mets:person:person_008",
+        "contributor": "urn:mets:person:person_038",
+        "duration": "1 day",
+        "startDate": "2025-04-15",
+        "endDate": "2025-04-15",
+        "location": "urn:mets:place:place_010",
+        "ipysigma_kwarg_node_size": 4,
+        "ipysigma_kwarg_node_label_size": 4,
+        "x": 175.6827392578125,
+        "y": 191.74720764160156,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:dataset:ds_001",
+      "attributes": {
+        "@type": "Dataset",
+        "identifier": "doi:10.5285/285d5ae7-934f-f7c4-e063-7086abc031fc",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": 131.44973754882812,
+        "y": 280.61822509765625,
+        "louvain": 17
+      }
+    },
+    {
+      "key": "urn:mets:dataset:ds_002",
+      "attributes": {
+        "@type": "Dataset",
+        "identifier": "https://doi.org/10.1594/PANGAEA.855693",
+        "name": "Boknis Eck hydrochemistry 1957 - 2014",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": 270.38690185546875,
+        "y": -190.30259704589844,
+        "louvain": 18
+      }
+    },
+    {
+      "key": "urn:mets:dataset:ds_003",
+      "attributes": {
+        "@type": "Dataset",
+        "identifier": "https://doi.org/10.6073/pasta/2c46d995744f9e310e7a4ad350686cc3",
+        "name": "North Inlet Estuary LTER - Zooplankton Data",
+        "distribution": "urn:mets:data-download:https://pasta.lternet.edu/package/data/eml/knb-lter-nin/2/1/ZooPlanktonSample-NIN-LTER-1981-1992",
+        "description": "Zooplankton data from the North Inlet Estuary LTER from 1981 to 1992",
+        "keywords": "",
+        "datePublished": "2013",
+        "recordedAt": "urn:mets:time-series:mets_0011",
+        "creator": "urn:mets:person:person_039",
+        "accountablePerson": "urn:mets:person:person_010",
+        "spatialCoverage": "urn:mets:place:place_011",
+        "temporalCoverage": "1981-01-20/1992-02-17",
+        "archivedAt": "https://portal.edirepository.org",
+        "creditText": "Stancyk, S. and NIN-LTER. 2013. Zooplankton Data for North Inlet Estuary, South Carolina, from 1981 to 1992, North Inlet LTER ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/2c46d995744f9e310e7a4ad350686cc3",
+        "ipysigma_kwarg_node_size": 5,
+        "ipysigma_kwarg_node_label_size": 5,
+        "x": -3.1889126300811768,
+        "y": -170.5965576171875,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:data-download:https://pasta.lternet.edu/package/data/eml/knb-lter-nin/2/1/ZooPlanktonSample-NIN-LTER-1981-1992",
+      "attributes": {
+        "@type": "DataDownload",
+        "name": "North Inlet Estuary LTER - Zooplankton 1981-1992",
+        "contentSize": "430 KB",
+        "contentUrl": "https://pasta.lternet.edu/package/data/eml/knb-lter-nin/2/1/ZooPlanktonSample-NIN-LTER-1981-1992",
+        "encodingFormat": ".csv",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -11.884757041931152,
+        "y": -189.0921173095703,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:person:person_039",
+      "attributes": {
+        "@type": "Person",
+        "identifier": "https://orcid.org/0000-0003-4000-2476",
+        "additionalName": "Dennis Allen",
+        "affiliation": "urn:mets:organization:org_016",
+        "email": "dallen@baruch.sc.edu",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 15.47702407836914,
+        "y": -181.01527404785156,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:address:address_010",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "Monterey, CA",
+        "postalCode": "95039",
+        "streetAddress": "7700 Sandholdt Rd.",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 209.1766357421875,
+        "y": -203.9826202392578,
+        "louvain": 14
+      }
+    },
+    {
+      "key": "urn:mets:offer:offer-0001",
+      "attributes": {
+        "@type": "Offer",
+        "name": "Data offers",
+        "description": "A collection of data services and products from MyMETS",
+        "offeredBy": "org-0000",
+        "itemOffered": "urn:mets:service:service-0001",
+        "category": "Data services",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -215.01878356933594,
+        "y": 31.632835388183594,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:service:service-0001",
+      "attributes": {
+        "@type": "Service",
+        "name": "MyMETS Data Service",
+        "description": "Our service provides data on a range of variables, specified in the serviceOutput property of this metadata record. These include the concentration of nitrate in seawater, ....",
+        "serviceType": "Data provisioning service",
+        "provider": "org-000",
+        "serviceOutput": "urn:mets:property-value:pv-0001",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -203.96998596191406,
+        "y": 31.18750762939453,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_006",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "University of Hawai'i Manoa",
+        "url": "https://manoa.hawaii.edu/ ",
+        "address": "urn:mets:address:address_015",
+        "ipysigma_kwarg_node_size": 6,
+        "ipysigma_kwarg_node_label_size": 6,
+        "x": -130.8367156982422,
+        "y": 33.11235427856445,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:service:service-0002",
+      "attributes": {
+        "@type": "Service",
+        "name": "HOT Data Service",
+        "description": "The HOT program provides hydrographic, biogeochemical, optical, productivity, and flux data",
+        "serviceType": "Open ocean time-series data",
+        "provider": "urn:mets:organization:org_006",
+        "termsOfService": "https://www.bco-dmo.org/project/2101",
+        "serviceOutput": "urn:mets:property-value:pv-0001",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": -157.9601593017578,
+        "y": 27.355854034423828,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:property-value:pv-0001",
+      "attributes": {
+        "@type": "PropertyValue",
+        "name": "concentration of nitrate in seawater",
+        "propertyID": "http://purl.obolibrary.org/obo/ENVO_3100037",
+        "unitText": "mmol/m^3",
+        "unitCode": "http://qudt.org/vocab/unit/MilliMOL-PER-M3",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -185.27972412109375,
+        "y": 29.9498348236084,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:property-value:pv-0002",
+      "attributes": {
+        "@type": "PropertyValue",
+        "name": "concentration of carbon dioxide in seawater",
+        "propertyID": "http://purl.obolibrary.org/obo/ENVO_04000006",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": 151.65524291992188,
+        "y": 279.21978759765625,
+        "louvain": 19
+      }
+    },
+    {
+      "key": "urn:mets:property-value:pv-0003",
+      "attributes": {
+        "@type": "PropertyValue",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": 114.45511627197266,
+        "y": 290.5452880859375,
+        "louvain": 20
+      }
+    },
+    {
+      "key": "urn:mets:property-value:pv-0004",
+      "attributes": {
+        "@type": "PropertyValue",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": 327.0114440917969,
+        "y": 43.113651275634766,
+        "louvain": 21
+      }
+    },
+    {
+      "key": "urn:mets:property-value:pv-0005",
+      "attributes": {
+        "@type": "PropertyValue",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": -149.1317138671875,
+        "y": -222.53062438964844,
+        "louvain": 22
+      }
+    },
+    {
+      "key": "urn:mets:property-value:pv-0006",
+      "attributes": {
+        "@type": "PropertyValue",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": -166.76202392578125,
+        "y": -255.81405639648438,
+        "louvain": 23
+      }
+    },
+    {
+      "key": "urn:mets:property-value:pv-0007",
+      "attributes": {
+        "@type": "PropertyValue",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": 279.19659423828125,
+        "y": -168.4829559326172,
+        "louvain": 24
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_005",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "NES I",
+        "url": "https://www.nsf.gov/geo/oce",
+        "alternateName": "1655686",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": 323.9726867675781,
+        "y": -41.62623596191406,
+        "louvain": 25
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_006",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "name": "NES II",
+        "url": "https://www.nsf.gov/geo/oce",
+        "alternateName": "2322676",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": 312.54156494140625,
+        "y": 62.157127380371094,
+        "louvain": 26
+      }
+    },
+    {
+      "key": "urn:mets:monetary-grant:monetarygrant_019",
+      "attributes": {
+        "@type": "MonetaryGrant",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": 330.10833740234375,
+        "y": 2.2296693325042725,
+        "louvain": 27
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_008",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "National Institute for Water and Atmospheric Research",
+        "url": "https://niwa.co.nz/",
+        "address": "urn:mets:address:address_001",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": -97.88565826416016,
+        "y": -268.63238525390625,
+        "louvain": 2
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_009",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "University of Otago",
+        "url": "https://www.otago.ac.nz/",
+        "address": "address_002",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -102.08031463623047,
+        "y": -294.0579833984375,
+        "louvain": 2
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_012",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Universidad de Las Palmas de Gran Canaria",
+        "url": "https://iocag.ulpgc.es/es/research/research-units/quima",
+        "address": "urn:mets:address:address_003",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": 267.5921325683594,
+        "y": 13.545254707336426,
+        "louvain": 3
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_011",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Scripps Institution of Oceanography",
+        "url": "https://sio.ucsd.edu",
+        "address": "La Jolla, CA",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 101.35385131835938,
+        "y": -23.42130470275879,
+        "louvain": 7
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_014",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Florida State University",
+        "url": "https://fsu.edu",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 92.77388000488281,
+        "y": 3.505314588546753,
+        "louvain": 7
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_015",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "National Oceanography Centre (NOC)",
+        "url": "www.noc.ac.uk",
+        "address": "UK",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -106.17464447021484,
+        "y": 182.80567932128906,
+        "louvain": 5
+      }
+    },
+    {
+      "key": "urn:mets:person:person_013",
+      "attributes": {
+        "@type": "Person",
+        "identifier": "https://orcid.org/0000-0002-3103-4479 | https://oceanexpert.org/expert/27702",
+        "additionalName": "Enrique Montes",
+        "affiliation": "urn:mets:organization:org_037",
+        "email": "enrique.montes@noaa.gov",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -216.88961791992188,
+        "y": -182.8617401123047,
+        "louvain": 10
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_021",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Woods Hole Oceanographic Institution",
+        "url": "whoi.edu",
+        "address": "urn:mets:address:address_009",
+        "ipysigma_kwarg_node_size": 4,
+        "ipysigma_kwarg_node_label_size": 4,
+        "x": 49.35139465332031,
+        "y": 65.36277770996094,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_023",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Bermuda Institute of Ocean Sciences",
+        "url": "http://bios.asu.edu",
+        "address": "urn:mets:address:address_014",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": -104.29947662353516,
+        "y": -82.07518768310547,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_025",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+        "url": "https://www.conicet.gov.ar/",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -238.65541076660156,
+        "y": -84.28608703613281,
+        "louvain": 13
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_029",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Virginia Institute of Marine Sciences / College of William and Mary",
+        "url": "http://www.vims.edu",
+        "address": "urn:mets:address:address_017",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": -104.46398162841797,
+        "y": -129.3003387451172,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:person:person_032",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Solveig R. Olafsdottir",
+        "email": "solveig.rosa.olafsdottir@hafogvatn.is",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": -185.77073669433594,
+        "y": -267.860107421875,
+        "louvain": 28
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_031",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "University of South Florida",
+        "url": "https://www.usf.edu/",
+        "address": "urn:mets:address:address_016",
+        "ipysigma_kwarg_node_size": 3,
+        "ipysigma_kwarg_node_label_size": 3,
+        "x": -275.9701232910156,
+        "y": 95.03711700439453,
+        "louvain": 15
+      }
+    },
+    {
+      "key": "urn:mets:person:person_040",
+      "attributes": {
+        "@type": "Person",
+        "additionalName": "Ian Smith",
+        "affiliation": "urn:mets:organization:org_037",
+        "email": "ian.smith@noaa.gov",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -221.0452880859375,
+        "y": -197.8435516357422,
+        "louvain": 10
+      }
+    },
+    {
+      "key": "urn:mets:address:address_013",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United Kingdom",
+        "addressLocality": "Plymouth, Devon",
+        "postalCode": "PL1 3DH",
+        "streetAddress": "Prospect Place",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 13.44812297821045,
+        "y": 293.27764892578125,
+        "louvain": 8
+      }
+    },
+    {
+      "key": "urn:mets:address:address_015",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "Honolulu",
+        "postalCode": "96822-2247",
+        "streetAddress": "1950 East West Rd.",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -138.64089965820312,
+        "y": 49.8397331237793,
+        "louvain": 6
+      }
+    },
+    {
+      "key": "urn:mets:address:address_011",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United Kingdom",
+        "addressLocality": "Cambridge",
+        "postalCode": "CB23 5DR",
+        "streetAddress": "High Cross, Madingley Road",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 42.5322265625,
+        "y": 159.94277954101562,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:address:address_001",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "New Zealand",
+        "addressLocality": "Dunedin",
+        "postalCode": "9016",
+        "streetAddress": "362 Leith Street",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -108.27632141113281,
+        "y": -260.3697814941406,
+        "louvain": 2
+      }
+    },
+    {
+      "key": "urn:mets:address:address_007",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "Germany",
+        "addressLocality": "Kiel",
+        "postalCode": "24148",
+        "streetAddress": "Wischhofstr. 1 - 3",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 219.42755126953125,
+        "y": 206.91937255859375,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:address:address_003",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "Spain",
+        "addressLocality": "Las Palmas de Gran Canaria",
+        "postalCode": "35017",
+        "streetAddress": "Facultad de Ciencias del Mar, IOCAG-QUIMA, Tafira Baja",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 280.253662109375,
+        "y": 11.141188621520996,
+        "louvain": 3
+      }
+    },
+    {
+      "key": "urn:mets:address:address_008",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "Washington, DC",
+        "postalCode": "20230",
+        "streetAddress": "1401 Constitution Avenue NW, Room 5128",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 271.3064880371094,
+        "y": -103.37609100341797,
+        "louvain": 11
+      }
+    },
+    {
+      "key": "urn:mets:address:address_005",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "South Carolina",
+        "postalCode": "29208",
+        "streetAddress": "715 Sumter Street",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 41.665157318115234,
+        "y": -172.98855590820312,
+        "louvain": 1
+      }
+    },
+    {
+      "key": "urn:mets:address:address_006",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "East Boothbay, Maine",
+        "postalCode": "4544",
+        "streetAddress": "60 Bigelow Drive",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 94.01654815673828,
+        "y": -101.44470977783203,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:address:address_009",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "Woods Hole",
+        "postalCode": "2543",
+        "streetAddress": "266 Woods Hole Road",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": 64.47807312011719,
+        "y": 72.74447631835938,
+        "louvain": 4
+      }
+    },
+    {
+      "key": "urn:mets:address:address_014",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "Bermuda",
+        "addressLocality": "St. George's",
+        "postalCode": "GE01",
+        "streetAddress": "25 Biological Station",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -120.36346435546875,
+        "y": -84.43069458007812,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:address:address_012",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "Argentina",
+        "addressLocality": "Mar del Plata",
+        "postalCode": "B7602HSA",
+        "streetAddress": "Paseo Victoria Ocampo Nº1, Escollera Norte",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -272.4969177246094,
+        "y": -103.96922302246094,
+        "louvain": 13
+      }
+    },
+    {
+      "key": "urn:mets:address:address_017",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "Gloucester Pt, Virginia",
+        "postalCode": "23062-1346",
+        "streetAddress": "1370 Greate Road",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -115.3630142211914,
+        "y": -137.9502410888672,
+        "louvain": 0
+      }
+    },
+    {
+      "key": "urn:mets:address:address_016",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "Florida",
+        "postalCode": "33620",
+        "streetAddress": "4202 E. Fowler Avenue",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -283.1840515136719,
+        "y": 83.5066146850586,
+        "louvain": 15
+      }
+    },
+    {
+      "key": "urn:mets:organization:org_032",
+      "attributes": {
+        "@type": "Organziation",
+        "name": "Deutsche Wissenschaftliche Kommission (DWK) Meeresforschung",
+        "ipysigma_kwarg_node_size": 0,
+        "ipysigma_kwarg_node_label_size": 0,
+        "x": -268.9583435058594,
+        "y": -180.49331665039062,
+        "louvain": 29
+      }
+    },
+    {
+      "key": "urn:mets:address:address_018",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "Germany",
+        "addressLocality": "Kiel",
+        "postalCode": "24105",
+        "streetAddress": "Duesternbrooker Weg 20",
+        "ipysigma_kwarg_node_size": 2,
+        "ipysigma_kwarg_node_label_size": 2,
+        "x": 188.313720703125,
+        "y": 128.57708740234375,
+        "louvain": 9
+      }
+    },
+    {
+      "key": "urn:mets:address:address_019",
+      "attributes": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States of America",
+        "addressLocality": "Miami",
+        "postalCode": "33149",
+        "streetAddress": "4301 Rickenbacker Causeway ",
+        "ipysigma_kwarg_node_size": 1,
+        "ipysigma_kwarg_node_label_size": 1,
+        "x": -201.39505004882812,
+        "y": -183.86285400390625,
+        "louvain": 10
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_255_0",
+      "source": "urn:mets:time-series:mets_0001",
+      "target": "urn:mets:person:person_026",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_1",
+      "source": "urn:mets:time-series:mets_0001",
+      "target": "urn:mets:person:person_027",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_2",
+      "source": "urn:mets:time-series:mets_0001",
+      "target": "urn:mets:person:person_025",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_3",
+      "source": "urn:mets:time-series:mets_0001",
+      "target": "urn:mets:person:person_031",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_4",
+      "source": "urn:mets:time-series:mets_0001",
+      "target": "urn:mets:place:place_001",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_5",
+      "source": "urn:mets:time-series:mets_0001",
+      "target": "urn:mets:organization:org_001",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 13
+      }
+    },
+    {
+      "key": "geid_255_6",
+      "source": "urn:mets:time-series:mets_0001",
+      "target": "urn:mets:monetary-grant:monetarygrant_008",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_7",
+      "source": "urn:mets:person:person_026",
+      "target": "urn:mets:organization:org_023",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_8",
+      "source": "urn:mets:person:person_027",
+      "target": "urn:mets:organization:org_023",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_9",
+      "source": "urn:mets:person:person_025",
+      "target": "urn:mets:organization:org_017",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_10",
+      "source": "urn:mets:person:person_031",
+      "target": "urn:mets:organization:org_029",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_11",
+      "source": "urn:mets:time-series:mets_0002",
+      "target": "urn:mets:person:person_001",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_12",
+      "source": "urn:mets:time-series:mets_0002",
+      "target": "urn:mets:person:person_002",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_13",
+      "source": "urn:mets:time-series:mets_0002",
+      "target": "urn:mets:place:place_002",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_14",
+      "source": "urn:mets:time-series:mets_0002",
+      "target": "urn:mets:organization:org_003",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_15",
+      "source": "urn:mets:time-series:mets_0002",
+      "target": "urn:mets:monetary-grant:monetarygrant_001",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_16",
+      "source": "urn:mets:person:person_001",
+      "target": "urn:mets:organization:org_008",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_17",
+      "source": "urn:mets:person:person_002",
+      "target": "urn:mets:organization:org_008",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_18",
+      "source": "urn:mets:person:person_002",
+      "target": "urn:mets:organization:org_009",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_19",
+      "source": "urn:mets:time-series:mets_0003",
+      "target": "urn:mets:person:person_003",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_20",
+      "source": "urn:mets:time-series:mets_0003",
+      "target": "urn:mets:person:person_004",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_21",
+      "source": "urn:mets:time-series:mets_0003",
+      "target": "urn:mets:person:person_005",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_22",
+      "source": "urn:mets:time-series:mets_0003",
+      "target": "urn:mets:place:place_003",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_23",
+      "source": "urn:mets:time-series:mets_0003",
+      "target": "urn:mets:organization:org_004",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_24",
+      "source": "urn:mets:time-series:mets_0003",
+      "target": "urn:mets:monetary-grant:monetarygrant_010",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_25",
+      "source": "urn:mets:person:person_003",
+      "target": "urn:mets:organization:org_012",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_26",
+      "source": "urn:mets:person:person_004",
+      "target": "urn:mets:organization:org_012",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_27",
+      "source": "urn:mets:person:person_005",
+      "target": "urn:mets:organization:org_004",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_28",
+      "source": "urn:mets:time-series:mets_0004",
+      "target": "urn:mets:organization:org_007",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 10
+      }
+    },
+    {
+      "key": "geid_255_29",
+      "source": "urn:mets:time-series:mets_0004",
+      "target": "urn:mets:person:person_022",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_30",
+      "source": "urn:mets:time-series:mets_0004",
+      "target": "urn:mets:person:person_023",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_31",
+      "source": "urn:mets:time-series:mets_0004",
+      "target": "urn:mets:place:place_004",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_32",
+      "source": "urn:mets:time-series:mets_0004",
+      "target": "urn:mets:organization:org_002",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 12
+      }
+    },
+    {
+      "key": "geid_255_33",
+      "source": "urn:mets:time-series:mets_0004",
+      "target": "urn:mets:monetary-grant:monetarygrant_002",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_34",
+      "source": "urn:mets:organization:org_007",
+      "target": "urn:mets:address:address_011",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_35",
+      "source": "urn:mets:person:person_022",
+      "target": "urn:mets:organization:org_007",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_36",
+      "source": "urn:mets:person:person_023",
+      "target": "urn:mets:organization:org_007",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_37",
+      "source": "urn:mets:time-series:mets_0005",
+      "target": "urn:mets:person:person_016",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_38",
+      "source": "urn:mets:time-series:mets_0005",
+      "target": "urn:mets:person:person_017",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_39",
+      "source": "urn:mets:time-series:mets_0005",
+      "target": "urn:mets:person:person_018",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_40",
+      "source": "urn:mets:time-series:mets_0005",
+      "target": "urn:mets:place:place_005",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_41",
+      "source": "urn:mets:time-series:mets_0005",
+      "target": "urn:mets:organization:org_001",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 12
+      }
+    },
+    {
+      "key": "geid_255_42",
+      "source": "urn:mets:time-series:mets_0005",
+      "target": "urn:mets:monetary-grant:monetarygrant_002",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_43",
+      "source": "urn:mets:person:person_016",
+      "target": "urn:mets:organization:org_021",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_44",
+      "source": "urn:mets:person:person_017",
+      "target": "urn:mets:organization:org_021",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_45",
+      "source": "urn:mets:person:person_018",
+      "target": "urn:mets:organization:org_021",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_46",
+      "source": "urn:mets:time-series:mets_0006",
+      "target": "urn:mets:person:person_019",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_47",
+      "source": "urn:mets:time-series:mets_0006",
+      "target": "urn:mets:person:person_024",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_48",
+      "source": "urn:mets:time-series:mets_0006",
+      "target": "urn:mets:person:person_033",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_49",
+      "source": "urn:mets:time-series:mets_0006",
+      "target": "urn:mets:place:place_006",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_50",
+      "source": "urn:mets:time-series:mets_0006",
+      "target": "urn:mets:organization:org_001",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 13
+      }
+    },
+    {
+      "key": "geid_255_51",
+      "source": "urn:mets:time-series:mets_0006",
+      "target": "urn:mets:monetary-grant:monetarygrant_009",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_52",
+      "source": "urn:mets:time-series:mets_0006",
+      "target": "urn:mets:offer:offer-0002",
+      "attributes": {
+        "label": "offers",
+        "ipysigma_kwarg_edge_size": 10
+      }
+    },
+    {
+      "key": "geid_255_53",
+      "source": "urn:mets:person:person_019",
+      "target": "urn:mets:organization:org_006",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_54",
+      "source": "urn:mets:person:person_024",
+      "target": "urn:mets:organization:org_006",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_55",
+      "source": "urn:mets:person:person_033",
+      "target": "urn:mets:organization:org_006",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_56",
+      "source": "urn:mets:offer:offer-0002",
+      "target": "urn:mets:organization:org_006",
+      "attributes": {
+        "label": "offeredBy",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_57",
+      "source": "urn:mets:offer:offer-0002",
+      "target": "urn:mets:service:service-0002",
+      "attributes": {
+        "label": "itemOffered",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_58",
+      "source": "urn:mets:time-series:mets_0007",
+      "target": "urn:mets:person:person_006",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_59",
+      "source": "urn:mets:time-series:mets_0007",
+      "target": "urn:mets:person:person_007",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_60",
+      "source": "urn:mets:time-series:mets_0007",
+      "target": "urn:mets:place:place_007",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_61",
+      "source": "urn:mets:time-series:mets_0007",
+      "target": "urn:mets:organization:org_001",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 11
+      }
+    },
+    {
+      "key": "geid_255_62",
+      "source": "urn:mets:time-series:mets_0007",
+      "target": "urn:mets:monetary-grant:monetarygrant_003",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_63",
+      "source": "urn:mets:person:person_006",
+      "target": "urn:mets:organization:org_011",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 3
+      }
+    },
+    {
+      "key": "geid_255_64",
+      "source": "urn:mets:person:person_007",
+      "target": "urn:mets:organization:org_014",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 3
+      }
+    },
+    {
+      "key": "geid_255_65",
+      "source": "urn:mets:time-series:mets_0008",
+      "target": "urn:mets:organization:org_005",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 11
+      }
+    },
+    {
+      "key": "geid_255_66",
+      "source": "urn:mets:time-series:mets_0008",
+      "target": "urn:mets:person:person_014",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_67",
+      "source": "urn:mets:time-series:mets_0008",
+      "target": "urn:mets:place:place_008",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_68",
+      "source": "urn:mets:time-series:mets_0008",
+      "target": "urn:mets:organization:org_002",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 12
+      }
+    },
+    {
+      "key": "geid_255_69",
+      "source": "urn:mets:time-series:mets_0008",
+      "target": "urn:mets:monetary-grant:monetarygrant_004",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_70",
+      "source": "urn:mets:organization:org_005",
+      "target": "urn:mets:address:address_013",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_71",
+      "source": "urn:mets:person:person_014",
+      "target": "urn:mets:organization:org_005",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_72",
+      "source": "urn:mets:time-series:mets_0009",
+      "target": "urn:mets:organization:org_005",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 11
+      }
+    },
+    {
+      "key": "geid_255_73",
+      "source": "urn:mets:time-series:mets_0009",
+      "target": "urn:mets:person:person_015",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_74",
+      "source": "urn:mets:time-series:mets_0009",
+      "target": "urn:mets:place:place_009",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_75",
+      "source": "urn:mets:time-series:mets_0009",
+      "target": "urn:mets:organization:org_002",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 12
+      }
+    },
+    {
+      "key": "geid_255_76",
+      "source": "urn:mets:time-series:mets_0009",
+      "target": "urn:mets:monetary-grant:monetarygrant_004",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_77",
+      "source": "urn:mets:person:person_015",
+      "target": "urn:mets:organization:org_005",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_78",
+      "source": "urn:mets:time-series:mets_0010",
+      "target": "urn:mets:person:person_008",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 12
+      }
+    },
+    {
+      "key": "geid_255_79",
+      "source": "urn:mets:time-series:mets_0010",
+      "target": "urn:mets:person:person_038",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 12
+      }
+    },
+    {
+      "key": "geid_255_80",
+      "source": "urn:mets:time-series:mets_0010",
+      "target": "urn:mets:place:place_010",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 11
+      }
+    },
+    {
+      "key": "geid_255_81",
+      "source": "urn:mets:time-series:mets_0010",
+      "target": "urn:mets:organization:org_010",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 13
+      }
+    },
+    {
+      "key": "geid_255_82",
+      "source": "urn:mets:time-series:mets_0010",
+      "target": "urn:mets:organization:org_033",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 10
+      }
+    },
+    {
+      "key": "geid_255_83",
+      "source": "urn:mets:time-series:mets_0010",
+      "target": "urn:mets:organization:org_034",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 10
+      }
+    },
+    {
+      "key": "geid_255_84",
+      "source": "urn:mets:time-series:mets_0010",
+      "target": "urn:mets:organization:org_035",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 11
+      }
+    },
+    {
+      "key": "geid_255_85",
+      "source": "urn:mets:time-series:mets_0010",
+      "target": "urn:mets:organization:org_036",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 11
+      }
+    },
+    {
+      "key": "geid_255_86",
+      "source": "urn:mets:person:person_008",
+      "target": "urn:mets:organization:org_010",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_87",
+      "source": "urn:mets:person:person_038",
+      "target": "urn:mets:organization:org_010",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_88",
+      "source": "urn:mets:organization:org_010",
+      "target": "urn:mets:address:address_007",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_89",
+      "source": "urn:mets:organization:org_035",
+      "target": "urn:mets:address:address_018",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_90",
+      "source": "urn:mets:organization:org_036",
+      "target": "urn:mets:address:address_018",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_91",
+      "source": "urn:mets:time-series:mets_0011",
+      "target": "urn:mets:person:person_010",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 12
+      }
+    },
+    {
+      "key": "geid_255_92",
+      "source": "urn:mets:time-series:mets_0011",
+      "target": "urn:mets:place:place_011",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 11
+      }
+    },
+    {
+      "key": "geid_255_93",
+      "source": "urn:mets:time-series:mets_0011",
+      "target": "urn:mets:organization:org_001",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 14
+      }
+    },
+    {
+      "key": "geid_255_94",
+      "source": "urn:mets:time-series:mets_0011",
+      "target": "urn:mets:organization:org_016",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 13
+      }
+    },
+    {
+      "key": "geid_255_95",
+      "source": "urn:mets:time-series:mets_0011",
+      "target": "urn:mets:monetary-grant:monetarygrant_011",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 10
+      }
+    },
+    {
+      "key": "geid_255_96",
+      "source": "urn:mets:time-series:mets_0011",
+      "target": "urn:mets:monetary-grant:monetarygrant_013",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 10
+      }
+    },
+    {
+      "key": "geid_255_97",
+      "source": "urn:mets:person:person_010",
+      "target": "urn:mets:organization:org_016",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_98",
+      "source": "urn:mets:organization:org_016",
+      "target": "urn:mets:address:address_005",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_99",
+      "source": "urn:mets:time-series:mets_0012",
+      "target": "urn:mets:person:person_009",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 10
+      }
+    },
+    {
+      "key": "geid_255_100",
+      "source": "urn:mets:time-series:mets_0012",
+      "target": "urn:mets:address:address_004",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_101",
+      "source": "urn:mets:time-series:mets_0012",
+      "target": "urn:mets:place:place_012",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_102",
+      "source": "urn:mets:time-series:mets_0012",
+      "target": "urn:mets:organization:org_002",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 14
+      }
+    },
+    {
+      "key": "geid_255_103",
+      "source": "urn:mets:time-series:mets_0012",
+      "target": "urn:mets:monetary-grant:monetarygrant_016",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_104",
+      "source": "urn:mets:time-series:mets_0012",
+      "target": "urn:mets:monetary-grant:monetarygrant_017",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_105",
+      "source": "urn:mets:time-series:mets_0012",
+      "target": "urn:mets:monetary-grant:monetarygrant_018",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_106",
+      "source": "urn:mets:time-series:mets_0012",
+      "target": "urn:mets:monetary-grant:monetarygrant_007",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_107",
+      "source": "urn:mets:person:person_009",
+      "target": "urn:mets:organization:org_015",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_108",
+      "source": "urn:mets:time-series:mets_0013",
+      "target": "urn:mets:organization:org_037",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_109",
+      "source": "urn:mets:time-series:mets_0013",
+      "target": "urn:mets:place:place_013",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 3
+      }
+    },
+    {
+      "key": "geid_255_110",
+      "source": "urn:mets:organization:org_037",
+      "target": "urn:mets:address:address_019",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_111",
+      "source": "urn:mets:time-series:mets_0014",
+      "target": "urn:mets:organization:org_013",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_112",
+      "source": "urn:mets:time-series:mets_0014",
+      "target": "urn:mets:place:place_014",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 3
+      }
+    },
+    {
+      "key": "geid_255_113",
+      "source": "urn:mets:organization:org_013",
+      "target": "urn:mets:address:address_008",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_114",
+      "source": "urn:mets:time-series:mets_0015",
+      "target": "urn:mets:person:person_011",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_115",
+      "source": "urn:mets:time-series:mets_0015",
+      "target": "urn:mets:place:place_015",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_116",
+      "source": "urn:mets:time-series:mets_0015",
+      "target": "urn:mets:organization:org_017",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_117",
+      "source": "urn:mets:person:person_011",
+      "target": "urn:mets:organization:org_017",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_118",
+      "source": "urn:mets:organization:org_017",
+      "target": "urn:mets:address:address_006",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_119",
+      "source": "urn:mets:time-series:mets_0016",
+      "target": "urn:mets:person:person_012",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_120",
+      "source": "urn:mets:time-series:mets_0016",
+      "target": "urn:mets:organization:org_019",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_121",
+      "source": "urn:mets:time-series:mets_0016",
+      "target": "urn:mets:place:place_016",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_122",
+      "source": "urn:mets:time-series:mets_0016",
+      "target": "urn:mets:organization:org_018",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_123",
+      "source": "urn:mets:time-series:mets_0016",
+      "target": "urn:mets:organization:org_020",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_124",
+      "source": "urn:mets:person:person_012",
+      "target": "urn:mets:organization:org_018",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_125",
+      "source": "urn:mets:time-series:mets_0017",
+      "target": "urn:mets:person:person_028",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_126",
+      "source": "urn:mets:time-series:mets_0017",
+      "target": "urn:mets:person:person_029",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_127",
+      "source": "urn:mets:time-series:mets_0017",
+      "target": "urn:mets:person:person_030",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 10
+      }
+    },
+    {
+      "key": "geid_255_128",
+      "source": "urn:mets:time-series:mets_0017",
+      "target": "urn:mets:place:place_018",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_129",
+      "source": "urn:mets:time-series:mets_0017",
+      "target": "urn:mets:organization:org_024",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 12
+      }
+    },
+    {
+      "key": "geid_255_130",
+      "source": "urn:mets:time-series:mets_0017",
+      "target": "urn:mets:monetary-grant:monetarygrant_012",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_131",
+      "source": "urn:mets:time-series:mets_0017",
+      "target": "urn:mets:monetary-grant:monetarygrant_015",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_132",
+      "source": "urn:mets:person:person_028",
+      "target": "urn:mets:organization:org_024",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_133",
+      "source": "urn:mets:person:person_029",
+      "target": "urn:mets:organization:org_024",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_134",
+      "source": "urn:mets:person:person_030",
+      "target": "urn:mets:organization:org_024",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_135",
+      "source": "urn:mets:person:person_030",
+      "target": "urn:mets:organization:org_025",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_136",
+      "source": "urn:mets:organization:org_024",
+      "target": "urn:mets:address:address_012",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_137",
+      "source": "urn:mets:time-series:mets_0018",
+      "target": "urn:mets:person:person_020",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_138",
+      "source": "urn:mets:time-series:mets_0018",
+      "target": "urn:mets:person:person_021",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_139",
+      "source": "urn:mets:time-series:mets_0018",
+      "target": "urn:mets:place:place_017",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_140",
+      "source": "urn:mets:time-series:mets_0018",
+      "target": "urn:mets:organization:org_022",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_141",
+      "source": "urn:mets:time-series:mets_0018",
+      "target": "urn:mets:monetary-grant:monetarygrant_014",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_142",
+      "source": "urn:mets:person:person_020",
+      "target": "urn:mets:organization:org_022",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_143",
+      "source": "urn:mets:person:person_021",
+      "target": "urn:mets:organization:org_022",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_144",
+      "source": "urn:mets:place:place_017",
+      "target": "urn:mets:address:address_010",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_145",
+      "source": "urn:mets:organization:org_022",
+      "target": "urn:mets:address:address_010",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_146",
+      "source": "urn:mets:time-series:mets_0019",
+      "target": "urn:mets:person:person_037",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_147",
+      "source": "urn:mets:time-series:mets_0019",
+      "target": "urn:mets:organization:org_002",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_148",
+      "source": "urn:mets:person:person_037",
+      "target": "urn:mets:organization:org_015",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_149",
+      "source": "urn:mets:time-series:mets_0020",
+      "target": "urn:mets:person:person_034",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_150",
+      "source": "urn:mets:time-series:mets_0020",
+      "target": "urn:mets:person:person_035",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_151",
+      "source": "urn:mets:time-series:mets_0020",
+      "target": "urn:mets:person:person_036",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_152",
+      "source": "urn:mets:time-series:mets_0020",
+      "target": "urn:mets:place:place_019",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_153",
+      "source": "urn:mets:time-series:mets_0020",
+      "target": "urn:mets:organization:org_026",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_154",
+      "source": "urn:mets:time-series:mets_0020",
+      "target": "urn:mets:organization:org_027",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_155",
+      "source": "urn:mets:time-series:mets_0020",
+      "target": "urn:mets:organization:org_028",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_156",
+      "source": "urn:mets:person:person_034",
+      "target": "urn:mets:organization:org_031",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_157",
+      "source": "urn:mets:person:person_035",
+      "target": "urn:mets:organization:org_031",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_158",
+      "source": "urn:mets:person:person_036",
+      "target": "urn:mets:organization:org_028",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_159",
+      "source": "urn:mets:time-series:mets_0021",
+      "target": "urn:mets:organization:org_030",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 3
+      }
+    },
+    {
+      "key": "geid_255_160",
+      "source": "urn:mets:time-series:mets_0022",
+      "target": "urn:mets:organization:org_030",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 3
+      }
+    },
+    {
+      "key": "geid_255_161",
+      "source": "urn:mets:time-series:mets_0023",
+      "target": "urn:mets:organization:org_013",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_162",
+      "source": "urn:mets:time-series:mets_0023",
+      "target": "urn:mets:place:place_020",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 3
+      }
+    },
+    {
+      "key": "geid_255_163",
+      "source": "urn:mets:time-series:mets_0024",
+      "target": "urn:mets:organization:org_013",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_164",
+      "source": "urn:mets:time-series:mets_0024",
+      "target": "urn:mets:place:place_021",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 3
+      }
+    },
+    {
+      "key": "geid_255_165",
+      "source": "urn:mets:time-series:mets_0025",
+      "target": "urn:mets:organization:org_002",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_166",
+      "source": "urn:mets:event:cruise_0001",
+      "target": "urn:mets:time-series:mets_0011",
+      "attributes": {
+        "label": "superEvent",
+        "ipysigma_kwarg_edge_size": 15
+      }
+    },
+    {
+      "key": "geid_255_167",
+      "source": "urn:mets:event:cruise_0001",
+      "target": "urn:mets:organization:org_016",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 12
+      }
+    },
+    {
+      "key": "geid_255_168",
+      "source": "urn:mets:event:cruise_0001",
+      "target": "urn:mets:person:person_010",
+      "attributes": {
+        "label": "contributor",
+        "ipysigma_kwarg_edge_size": 11
+      }
+    },
+    {
+      "key": "geid_255_169",
+      "source": "urn:mets:event:cruise_0001",
+      "target": "urn:mets:organization:org_001",
+      "attributes": {
+        "label": "funder",
+        "ipysigma_kwarg_edge_size": 13
+      }
+    },
+    {
+      "key": "geid_255_170",
+      "source": "urn:mets:event:cruise_0001",
+      "target": "urn:mets:monetary-grant:monetarygrant_011",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_171",
+      "source": "urn:mets:event:cruise_0001",
+      "target": "urn:mets:monetary-grant:monetarygrant_013",
+      "attributes": {
+        "label": "funding",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_172",
+      "source": "urn:mets:event:cruise_0001",
+      "target": "urn:mets:place:place_011",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 10
+      }
+    },
+    {
+      "key": "geid_255_173",
+      "source": "urn:mets:event:cruise_0002",
+      "target": "urn:mets:time-series:mets_0008",
+      "attributes": {
+        "label": "superEvent",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_174",
+      "source": "urn:mets:event:cruise_0003",
+      "target": "urn:mets:time-series:mets_0009",
+      "attributes": {
+        "label": "superEvent",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_175",
+      "source": "urn:mets:event:cruise_0004",
+      "target": "urn:mets:time-series:mets_0010",
+      "attributes": {
+        "label": "superEvent",
+        "ipysigma_kwarg_edge_size": 13
+      }
+    },
+    {
+      "key": "geid_255_176",
+      "source": "urn:mets:event:cruise_0004",
+      "target": "urn:mets:person:person_008",
+      "attributes": {
+        "label": "organizer",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_177",
+      "source": "urn:mets:event:cruise_0004",
+      "target": "urn:mets:person:person_038",
+      "attributes": {
+        "label": "contributor",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_178",
+      "source": "urn:mets:event:cruise_0004",
+      "target": "urn:mets:place:place_010",
+      "attributes": {
+        "label": "location",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_179",
+      "source": "urn:mets:dataset:ds_003",
+      "target": "urn:mets:data-download:https://pasta.lternet.edu/package/data/eml/knb-lter-nin/2/1/ZooPlanktonSample-NIN-LTER-1981-1992",
+      "attributes": {
+        "label": "distribution",
+        "ipysigma_kwarg_edge_size": 6
+      }
+    },
+    {
+      "key": "geid_255_180",
+      "source": "urn:mets:dataset:ds_003",
+      "target": "urn:mets:time-series:mets_0011",
+      "attributes": {
+        "label": "recordedAt",
+        "ipysigma_kwarg_edge_size": 13
+      }
+    },
+    {
+      "key": "geid_255_181",
+      "source": "urn:mets:dataset:ds_003",
+      "target": "urn:mets:person:person_039",
+      "attributes": {
+        "label": "creator",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_182",
+      "source": "urn:mets:dataset:ds_003",
+      "target": "urn:mets:person:person_010",
+      "attributes": {
+        "label": "accountablePerson",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_183",
+      "source": "urn:mets:dataset:ds_003",
+      "target": "urn:mets:place:place_011",
+      "attributes": {
+        "label": "spatialCoverage",
+        "ipysigma_kwarg_edge_size": 8
+      }
+    },
+    {
+      "key": "geid_255_184",
+      "source": "urn:mets:person:person_039",
+      "target": "urn:mets:organization:org_016",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_185",
+      "source": "urn:mets:offer:offer-0001",
+      "target": "urn:mets:service:service-0001",
+      "attributes": {
+        "label": "itemOffered",
+        "ipysigma_kwarg_edge_size": 3
+      }
+    },
+    {
+      "key": "geid_255_186",
+      "source": "urn:mets:service:service-0001",
+      "target": "urn:mets:property-value:pv-0001",
+      "attributes": {
+        "label": "serviceOutput",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_187",
+      "source": "urn:mets:organization:org_006",
+      "target": "urn:mets:address:address_015",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 7
+      }
+    },
+    {
+      "key": "geid_255_188",
+      "source": "urn:mets:service:service-0002",
+      "target": "urn:mets:organization:org_006",
+      "attributes": {
+        "label": "provider",
+        "ipysigma_kwarg_edge_size": 9
+      }
+    },
+    {
+      "key": "geid_255_189",
+      "source": "urn:mets:service:service-0002",
+      "target": "urn:mets:property-value:pv-0001",
+      "attributes": {
+        "label": "serviceOutput",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_190",
+      "source": "urn:mets:organization:org_008",
+      "target": "urn:mets:address:address_001",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_191",
+      "source": "urn:mets:organization:org_012",
+      "target": "urn:mets:address:address_003",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_192",
+      "source": "urn:mets:person:person_013",
+      "target": "urn:mets:organization:org_037",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_193",
+      "source": "urn:mets:organization:org_021",
+      "target": "urn:mets:address:address_009",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    },
+    {
+      "key": "geid_255_194",
+      "source": "urn:mets:organization:org_023",
+      "target": "urn:mets:address:address_014",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_195",
+      "source": "urn:mets:organization:org_029",
+      "target": "urn:mets:address:address_017",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 3
+      }
+    },
+    {
+      "key": "geid_255_196",
+      "source": "urn:mets:organization:org_031",
+      "target": "urn:mets:address:address_016",
+      "attributes": {
+        "label": "address",
+        "ipysigma_kwarg_edge_size": 4
+      }
+    },
+    {
+      "key": "geid_255_197",
+      "source": "urn:mets:person:person_040",
+      "target": "urn:mets:organization:org_037",
+      "attributes": {
+        "label": "affiliation",
+        "ipysigma_kwarg_edge_size": 5
+      }
+    }
+  ]
+}
