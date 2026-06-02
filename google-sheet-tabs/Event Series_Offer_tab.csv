@@ -1,0 +1,3 @@
+@id,name,description,offeredBy,itemOffered,category
+offer-0001,Data offers,A collection of data services and products from MyMETS,org-0000,service-0001,Data services
+offer-0002,HOT data,"Hydrographic, biogeochemical, particle flux, and production data",org_006,service-0002,Datasets

@@ -1,0 +1,8 @@
+@id,name,propertyID,unitText,unitCode
+pv-0001,concentration of nitrate in seawater,http://purl.obolibrary.org/obo/ENVO_3100037,mmol/m^3,http://qudt.org/vocab/unit/MilliMOL-PER-M3
+pv-0002,concentration of carbon dioxide in seawater,http://purl.obolibrary.org/obo/ENVO_04000006,,
+pv-0003,,,,
+pv-0004,,,,
+pv-0005,,,,
+pv-0006,,,,
+pv-0007,,,,

@@ -1,0 +1,41 @@
+@id,identifier,additionalName,affiliation,email
+person_001,https://oceanexpert.org/expert/18429,Kim Currie,org_008,
+person_002,,Sebastiaan van de Velde,org_008|org_009,sebastiaan.vandevelde@otago.ac.nz
+person_003,,Melchor Gonzalez,org_012,melchor.gonzalez@ulpgc.es
+person_004,,Magdalena Santana,org_012,magdalena.santana@ulpgc.es
+person_005,,Andres Cianca,org_004,"andres.cianca@plocan,eu"
+person_006,https://orcid.org/0000-0002-2132-7219,Katherine Barbeau,org_011,kbarbeau@ucsd.edu
+person_007,,Mike Stukel,org_014,mstukel@fsu.edu
+person_008,https://orcid.org/0000-0003-4053-1394,Hermann Bange,org_010,hbange@geomar.de
+person_009,https://orcid.org/0000-0002-2798-5044,Andrew Gates,org_015,arg@noc.ac.uk
+person_010,https://orcid.org/0000-0001-6459-5240,Joshua Stone,org_016,stone@sc.edu
+person_011,,Nicole Poulton,org_017,npoulton@bigelow.org
+person_012,https://orcid.org/0000-0001-6761-5016,Ingunn Skjelvan,org_018,insk@norceresearch.no
+person_013,https://orcid.org/0000-0002-3103-4479|https://oceanexpert.org/expert/27702,Enrique Montes,org_037,enrique.montes@noaa.gov
+person_014,,Tim Smyth,org_005,tjsm@pml.ac.uk
+person_015,,Andy Rees,org_005,apre@pml.ac.uk
+person_016,,Heidi M. Sosik,org_021,hsosik@whoi.edu
+person_017,,Kate Morkeski,org_021,lter-nes-info@whoi.edu.
+person_018,,Connor Ahearn,org_021,cahearn@whoi.edu
+person_019,https://orcid.org/0000-0002-0938-7948,Angelicque White,org_006,aewhite@hawaii.edu
+person_020,,Francisco Chavez,org_022,chfr@mbari.org
+person_021,,Marguerite Blum,org_022,mblum@mbari.org
+person_022,,Hugh Venables,org_007,hjv@bas.ac.uk
+person_023,,Kate Hendry,org_007,kathen@bas.ac.uk
+person_024,https://orcid.org/0000-0002-2515-6402|https://oceanexpert.org/expert/16708,James Potemra,org_006,jimp@hawaii.edu
+person_025,https://orcid.org/0000-0003-1209-3753|https://oceanexpert.org/expert/1277,Michael Lomas,org_017,mlomas@bigelow.org
+person_026,https://orcid.org/0000-0002-0097-0336|https://oceanexpert.org/expert/22665,Nicholas Bates,org_023,Nick.Bates@bios.asu.edu
+person_027,https://orcid.org/0000-0002-3645-4851|https://oceanexpert.org/expert/17205,Rodney Johnson,org_023,Rod.Johnson@bios.asu.edu
+person_028,,Valeria Segura,org_024,vsegura@inidep.edu.ar
+person_029,https://www.oceanexpert.net/expert/35800,Carla F Berghoff,org_024,cberghoff@inidep.edu.ar
+person_030,https://orcid.org/0009-0005-4137-9285,Daniela del Valle,org_024|org_025,ddelvalle@inidep.edu.ar
+person_031,https://orcid.org/0000-0001-9884-4655,Deborah Steinberg,org_029,debbies@vims.edu
+person_032,,Solveig R. Olafsdottir,,solveig.rosa.olafsdottir@hafogvatn.is
+person_033,|https://orcid.org/0000-0002-6660-6721|https://oceanexpert.org/expert/17194,David M. Karl,org_006,dkarl@hawaii.edu
+person_034,,Frank Muller-Karger,org_031,carib@usf.edu
+person_035,,Digna Rueda-Roa,org_031,druedaro@usf.edu
+person_036,,Laura Lorenzoni,org_028,laura.lorenzoni@nasa.gov
+person_037,,Penny Holliday,org_015,
+person_038,https://orcid.org/0000-0002-4939-590X,Helmke Hepach,org_010,hhepach@geomar.de
+person_039,https://orcid.org/0000-0003-4000-2476,Dennis Allen,org_016,dallen@baruch.sc.edu
+person_040,,Ian Smith,org_037,ian.smith@noaa.gov

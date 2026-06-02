@@ -1,0 +1,22 @@
+@id,identifier,addressCountry,addressLocality,postalCode,streetAddress
+address_001,,New Zealand,Wellington,6021,301 Evans Bay Parade
+address_001,,New Zealand,Dunedin,9016,362 Leith Street
+address_003,,Spain,Las Palmas de Gran Canaria,35017,"Facultad de Ciencias del Mar, IOCAG-QUIMA, Tafira Baja"
+address_004,,United Kingdom,Hampshire,SO14 3HZ,European Way
+address_005,,United States of America,South Carolina,29208,715 Sumter Street
+address_006,,United States of America,"East Boothbay, Maine",4544,60 Bigelow Drive
+address_007,,Germany,Kiel,24148,Wischhofstr. 1 - 3
+address_008,,United States of America,"Washington, DC",20230,"1401 Constitution Avenue NW, Room 5128"
+address_009,,United States of America,Woods Hole,2543,266 Woods Hole Road
+address_010,,United States of America,"Monterey, CA",95039,7700 Sandholdt Rd.
+address_011,,United Kingdom,Cambridge,CB23 5DR,"High Cross, Madingley Road"
+address_012,,Argentina,Mar del Plata,B7602HSA,"Paseo Victoria Ocampo Nº1, Escollera Norte"
+address_013,,United Kingdom,"Plymouth, Devon",PL1 3DH,Prospect Place
+address_014,,Bermuda,St. George's,GE01,25 Biological Station
+address_015,,United States of America,Honolulu,96822-2247,1950 East West Rd.
+address_016,,United States of America,Florida,33620,4202 E. Fowler Avenue
+address_017,,United States of America,"Gloucester Pt, Virginia",23062-1346,1370 Greate Road
+address_018,,Germany,Kiel,24105,Duesternbrooker Weg 20
+address_019,,United States of America,Miami,33149,4301 Rickenbacker Causeway 
+address_020,,Norway,Bergen,NO-5007,Jahnebakken 5
+address_021,,Norway,Bergen,NO-5007,Allegaten 70

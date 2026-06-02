@@ -1,0 +1,38 @@
+@id,identifier,name,url,address
+org_001,https://ror.org/021nxhr62|grid.431093.c|https://isni.org/isni/0000000119587073|https://api.crossref.org/funders/100000001,National Science Foundation,,
+org_002,https://edmo.seadatanet.org/report/783,Natural Environment Research Council,https://edmo.seadatanet.org/report/783| www.nerc.ac.uk,
+org_003,,"New Zealand Ministry of Business, Innovation, and Employment",https://www.mbie.govt.nz/,
+org_004,,"The Canary Islands Government, The Canary Island Oceanic Platform, PLOCAN",https://plocan.eu/en,
+org_005,,Plymouth Marine Laboratory,https://oceanscape.org/organisation/plymouth-marine-laboratory/,address_013
+org_006,https://ror.org/01wspgy28|grid.410445.0|https://isni.org/isni/0000000121880957|https://oceanexpert.org/institution/17912,University of Hawai'i Manoa,https://manoa.hawaii.edu/ ,address_015
+org_007,,British Antarctic Survey,https://www.bas.ac.uk,address_011
+org_008,,National Institute for Water and Atmospheric Research,https://niwa.co.nz/,address_001
+org_009,,University of Otago,https://www.otago.ac.nz/,address_002
+org_010,,GEOMAR Helmhotz Centre for Ocean Research Kiel,https://www.geomar.de,address_007
+org_011,,Scripps Institution of Oceanography,https://sio.ucsd.edu,"La Jolla, CA"
+org_012,,Universidad de Las Palmas de Gran Canaria,https://iocag.ulpgc.es/es/research/research-units/quima,address_003
+org_013,,National Oceanic and Atmospheric Administration,https://www.noaa.gov/,address_008
+org_014,,Florida State University,https://fsu.edu,
+org_015,,National Oceanography Centre (NOC),www.noc.ac.uk,UK
+org_016,,University of South Carolina,www.sc.edu,address_005
+org_017,https://ror.org/03v2r6x37|grid.296275.d|http://isni.org/isni/0000000095164913|https://oceanexpert.org/institution/5091,Bigelow Laboratory for Ocean Sciences,www.bigelow.org,address_006
+org_018,,NORCE Norwegian Research Centre,www.norceresearch.no,address_020
+org_019,,University of Bergen,www.uib.no,address_021
+org_020,,Norwegian Environment Agency,www.miljodir.no,
+org_021,https://ror.org/03zbnzt98|grid.56466.37|https://isni.org/isni/0000000405047510|https://oceanexpert.org/institution/9783,Woods Hole Oceanographic Institution,whoi.edu,address_009
+org_022,,Monterey Bay Aquarium Reserach Institute,www.mbari.org,address_010
+org_023,https://ror.org/05j1wxv23|grid.248808.e|http://isni.org/isni/0000000404436506,Bermuda Institute of Ocean Sciences,http://bios.asu.edu,address_014
+org_024,https://oceanexpert.org/institution/6824,Instituto Nacional de Investigación y Desarrollo Pesquero,https://www.argentina.gob.ar/inidep,address_012
+org_025,,Consejo Nacional de Investigaciones Científicas y Técnicas,https://www.conicet.gov.ar/,
+org_026,,"Fondo Nacional de Ciencia, Tecnología e Innovación of Venezuela (FONACIT)",http://www.fonacit.gob.ve/,
+org_027,,NSF Division of Ocean Sciences (NSF OCE),http://www.nsf.gov/div/index.jsp?div=oce,
+org_028,,National Aeronautics & Space Administration (NASA),http://www.nasa.gov,
+org_029,https://ror.org/04eeqc889|http://isni.org/isni/0000000419371354|https://oceanexpert.org/institution/5579,Virginia Institute of Marine Sciences / College of William and Mary,http://www.vims.edu,address_017
+org_030,,Marine and Freshwater Research Institute,http://www.hafogvatn.is,
+org_031,,University of South Florida,https://www.usf.edu/,address_016
+org_032,,Deutsche Wissenschaftliche Kommission (DWK) Meeresforschung,,
+org_033,,HELCOM Baltic Marine Environment Commission,https://helcom.fi,
+org_034,,Bundesministerium für Bildung und Forschung (BMBF),,
+org_035,,Institut für Meeresforschung (IfM),,address_018
+org_036,,IfM-GEOMAR,,address_018
+org_037,,Atlantic Oceanographic and Meteorological Laboratory,,address_019

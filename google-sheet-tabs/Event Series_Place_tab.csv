@@ -1,0 +1,28 @@
+@id,identifier,name,geosparql:asWKT,address
+place_001,,BATS,POINT (31.67 -64.17),
+place_002,,,"POLYGON(171.535 -45.770, 170.720 -45.831, 170.720 -45.770, 171.535 -45.831)",
+place_003,,,POINT (-15.5 29.16),
+place_004,,,"POLYGON ((-68.11523 -67.57467, -68.16330 -67.60294, -68.33771 -67.59300, -68.26904 -67.54217, -68.11523 -67.57467))",
+place_005,,,"POLYGON(-71.0680, -70.2182, 41.3600, 39.7576)",
+place_006,,Station ALOHA,"POINT (22.75,-158)",
+place_007,,,"POLYGON(-126.5 29.85, -117.4 29.85, 37.85 -117.4, 126.5 37.85)",
+place_008,,Western English Channel,"POLYGON(50 -5, 51 -4)",
+place_009,,Atlantic Ocean,"POLYGON(-48.1075 -56.1247, 49.7153 -6.5327)",
+place_010,,Boknis Eck Time Series Station,"POINT (10.03933, 54.5295)",
+place_011,,Bread and Butter Creek Mouth,"Point (33.3333, -79.1870)",
+place_012,,,"Point (48,-16)",
+place_013,,,"POLYGON((
+  -85.0221065 24.39797578,
+  -85.0221065 28.0178416,
+  -80.08316964 28.0178416,
+  -80.08316964 24.39797578,
+  -85.0221065 24.39797578
+))",
+place_014,,U.S. East Coast,Polygon (),
+place_015,,,"Point (43.8440, -69.6409)",
+place_016,,Station M,"POLYGON(1.9 65.8, 1.9 66.05, 2.3 66.05, 2.3 65.8)",
+place_017,,Monterey Bay,"ploygon(-123.14009, -121.103558, 37.881632, 35.55327)",address_010
+place_018,,EPEA,"Point (-57.686, -38.467)",
+place_019,,Cariaco Station,"Point(-64.67, 10.50)",
+place_020,,U.S. West Coast,Polygon(),
+place_021,,U.S. Gulf Region,Polygon(),

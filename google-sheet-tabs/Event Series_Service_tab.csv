@@ -1,0 +1,4 @@
+@id,name,description,serviceType,provider,termsOfService,serviceOutput
+service-0001,MyMETS Data Service,"Our service provides data on a range of variables, specified in the serviceOutput property of this metadata record. These include the concentration of nitrate in seawater, ....",Data provisioning service,org-000,,pv-0001|
+service-0002,HOT Data Service,"The HOT program provides hydrographic, biogeochemical, optical, productivity, and flux data",Open ocean time-series data,org_006,https://www.bco-dmo.org/project/2101 (?); What about HOT DOGS?,pv-0001|pv
+service_0003,Station M data,"Data from Station M, which include hydrography, DIC, TA, and inorganic nutrients",Open ocean time-series data,org_018,,
